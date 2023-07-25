@@ -1,34 +1,18 @@
 {
   "main": {
-    "id": "08e66fb411dd9892",
+    "id": "bf15c36f8aabb884",
     "type": "split",
     "children": [
       {
-        "id": "c89819ffb27a9cdd",
+        "id": "643122072c25446b",
         "type": "tabs",
         "children": [
           {
-            "id": "b087497f7beca921",
+            "id": "0d2c2f8440d5bad7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "About.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c178c64db8c328e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal Finance/System considerations.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -37,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0969ad7d5189de12",
+    "id": "1c51ce164b174de3",
     "type": "split",
     "children": [
       {
-        "id": "9da8d3e0b77cd20b",
+        "id": "2809b759faf18cb5",
         "type": "tabs",
         "children": [
           {
-            "id": "19689540fc2c4666",
+            "id": "dc246eb2c6875e81",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -55,7 +39,7 @@
             }
           },
           {
-            "id": "3641cc595a3b8100",
+            "id": "d53ef6f93f30a85e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -70,7 +54,7 @@
             }
           },
           {
-            "id": "5cfb17c784e5ba02",
+            "id": "f5d3065b24be0277",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "65cffee02205c048",
+    "id": "a07fd90e5f159dca",
     "type": "split",
     "children": [
       {
-        "id": "cd3f09022d975ade",
+        "id": "f5169e8421833801",
         "type": "tabs",
         "children": [
           {
-            "id": "27ee4d2d6b7cee36",
+            "id": "98921230335a32b6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "About.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,19 +92,18 @@
             }
           },
           {
-            "id": "c28cd2c8cf2412f8",
+            "id": "fc7a87c30ad5ab47",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "About.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "8ee4bcb32f0ca948",
+            "id": "90532fa9c1ed0cdd",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -132,20 +114,18 @@
             }
           },
           {
-            "id": "6d41c867df1670b2",
+            "id": "7667dafbca34f2bd",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "About.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -158,19 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19689540fc2c4666",
-  "lastOpenFiles": [
-    "Investing",
-    "Accounting",
-    "Personal Finance/My system.md",
-    "About.md",
-    "Personal Finance",
-    "Personal Finance/Key Features.md",
-    "Personal Finance/System considerations.md",
-    "Personal Finance/Types of credit card.md",
-    "Personal Finance/Types of bank account.md",
-    "().md",
-    "High interest savings account.md",
-    "Credit vs Debit cards.md"
-  ]
+  "active": "0d2c2f8440d5bad7",
+  "lastOpenFiles": []
 }
