@@ -1,5 +1,8 @@
 There are many different accounts one should consider having. The ideal type of accounts used for these can vary.
 
+# Current account
+
+
 # Emergency fund
 * money set apart from other savings.
 * There to help you deal with unexpected events of life. 
@@ -32,25 +35,22 @@ There are many different accounts one should consider having. The ideal type of 
 # Savings account
 
 
-# Checking account
-
-
 # Retirement account
 
 
 # Investment account
 
 
-#
+# 
 
 
-#
+# 
 
 
-#
+# 
 
 
-#
+# 
 
 
 # Links

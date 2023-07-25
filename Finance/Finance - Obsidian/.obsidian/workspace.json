@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "My system.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c178c64db8c328e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "System considerations.md",
                 "mode": "source",
                 "source": false
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System considerations.md",
+                "file": "My system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System considerations.md",
+                "file": "My system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System considerations.md"
+                "file": "My system.md"
               }
             }
           }
@@ -161,12 +173,12 @@
   },
   "active": "9b647e2bacab4e90",
   "lastOpenFiles": [
-    "Types of credit card.md",
     "System considerations.md",
+    "My system.md",
+    "Types of credit card.md",
+    "Types of bank account.md",
     "About.md",
     "Key Features.md",
-    "Untitled.md",
-    "Types of bank account.md",
     "High interest savings account.md",
     "Credit vs Debit cards.md",
     "Untitled"
