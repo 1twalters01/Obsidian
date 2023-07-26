@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c4fa6460b8e38913",
+            "id": "d53d7449583baa72",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Contents.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "de0bc7289a7aa134",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Contents.md"
+              }
             }
           }
         ]
@@ -138,6 +147,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4fa6460b8e38913",
-  "lastOpenFiles": []
+  "active": "d53d7449583baa72",
+  "lastOpenFiles": [
+    "An overview of the SE Engine by Project Phase.md",
+    "Cost Effectiveness Considerations.md",
+    "Contents.md",
+    "The Common Technical Processes and the SE Engine.md",
+    "Introduction.md",
+    "Distinctions between Product Verification and Product Validation.md",
+    "Competency Model for Systems Engineers.md",
+    "Human Systems Integration (HSI) in the SE Process.md",
+    "Example of using the SE Engine.md",
+    "Fundamentals of Systems Engineering/Fundamentals of Systems Engineering.md",
+    "Fundamentals of Systems Engineering"
+  ]
 }
