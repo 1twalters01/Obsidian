@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "1e0b3c7f2df60efb",
+    "id": "14c30618c83044cb",
     "type": "split",
     "children": [
       {
-        "id": "4c1fcf0aabd93d03",
+        "id": "9b981bdf104195c5",
         "type": "tabs",
         "children": [
           {
-            "id": "2cf215a11afdbc9e",
+            "id": "b8cb4a7b836b120b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Contents.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "49762a703d09b1e0",
+    "id": "c4f48a028a64b58a",
     "type": "split",
     "children": [
       {
-        "id": "94a3ef0a48b70a29",
+        "id": "56c88bb128fbde32",
         "type": "tabs",
         "children": [
           {
-            "id": "88f2f5388056780a",
+            "id": "3b1c41f57a3151db",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +43,7 @@
             }
           },
           {
-            "id": "8ddf7985561e175d",
+            "id": "851941eff70fd24c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +58,7 @@
             }
           },
           {
-            "id": "1f8b1a7ea27db364",
+            "id": "50298e6c934d0e60",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,19 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "3623dfd6f2b2b5d6",
+    "id": "7620c97b8417b983",
     "type": "split",
     "children": [
       {
-        "id": "32db009ac79c1cca",
+        "id": "4dc1eb069d6091fd",
         "type": "tabs",
         "children": [
           {
-            "id": "4be01e585e1917be",
+            "id": "5df6b3e1cab5d119",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +97,19 @@
             }
           },
           {
-            "id": "1f0c56d1fa1ad235",
+            "id": "94ba81ae43e04810",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "39e7feddd623c45c",
+            "id": "8a2ecb416f1f63c8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +120,13 @@
             }
           },
           {
-            "id": "49189e37bb856c58",
+            "id": "c92847fc48de797c",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Contents.md"
+              }
             }
           }
         ]
@@ -138,6 +146,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2cf215a11afdbc9e",
-  "lastOpenFiles": []
+  "active": "3b1c41f57a3151db",
+  "lastOpenFiles": [
+    "First Aid",
+    "Fitness",
+    "Nutrition/Nutrient Balances/Calcium vs Magnesium.md",
+    "Nutrition/Nutrient Balances/Omega-6 vs Omega-3.md",
+    "Contents.md",
+    "Nutrition/Nutrient Balances/Pral alkalinity.md",
+    "Nutrition/Nutrient Balances/Calcium vs Oxalate.md",
+    "Nutrition/Nutrient Balances/Potassium vs Sodium.md",
+    "Nutrition/Nutrient Balances/Zinc vs Copper.md",
+    "Nutrition/Nutrient Balances/% Omega-6 (LA).md",
+    "Nutrition/Minerals/Copper.md",
+    "Nutrition/Minerals/About Minerals.md",
+    "Nutrition/Minerals/Zinc.md",
+    "Nutrition/Minerals/Selenium.md",
+    "Nutrition/Minerals/Potassium.md",
+    "Nutrition/Minerals/Phosphorus.md",
+    "Nutrition/Minerals/Manganese.md",
+    "Nutrition/Minerals/Magnesium.md",
+    "Nutrition/Minerals/Iron.md",
+    "Nutrition/Minerals/Calcium.md",
+    "Nutrition/Nutrient Balances",
+    "Nutrition/Vitamins/Folate.md",
+    "Nutrition/Vitamins/Vitamin K.md",
+    "Nutrition/Vitamins/Vitamin E.md",
+    "Nutrition/Vitamins/Vitamin D.md",
+    "Nutrition/Vitamins/Vitamin C.md",
+    "Nutrition/Vitamins/Vitamin A.md",
+    "Nutrition/Vitamins/Vitamin B12.md",
+    "Nutrition/Macronutrients/Protein",
+    "Nutrition/Macronutrients/Lipids",
+    "Nutrition/Macronutrients/Carbohydrates",
+    "Nutrition/Macronutrients",
+    "Nutrition/Minerals",
+    "Nutrition/Vitamins",
+    "Nutrition"
+  ]
 }
