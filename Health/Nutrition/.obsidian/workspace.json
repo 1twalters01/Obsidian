@@ -1,35 +1,52 @@
 {
   "main": {
-    "id": "f8d08e045a19dd57",
+    "id": "cad90e6865800e93",
     "type": "split",
     "children": [
       {
-        "id": "c87fc50cab5c3852",
+        "id": "7e0ea5befe127ac9",
         "type": "tabs",
         "children": [
           {
-            "id": "e697738bd839c5ce",
+            "id": "1549cae9ccd89e1e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Book/Number of sections.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca4db168917e536f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Book/Sections/Diet analysis sections.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "251bc780ed0ecfbf",
+    "id": "430142b09a86a97e",
     "type": "split",
     "children": [
       {
-        "id": "eadf43e0f764ecb3",
+        "id": "f4c4480d791c1163",
         "type": "tabs",
         "children": [
           {
-            "id": "d440d0463d2bd26d",
+            "id": "fbdee5d656d1f57c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +56,7 @@
             }
           },
           {
-            "id": "924fb2c8426429b4",
+            "id": "6187818a06408855",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +71,7 @@
             }
           },
           {
-            "id": "2f11a379376e3bc9",
+            "id": "83b7bb9d3f4b94ef",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -65,22 +82,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 242.5
   },
   "right": {
-    "id": "de0bc7289a7aa134",
+    "id": "15d515e86386996f",
     "type": "split",
     "children": [
       {
-        "id": "24828e98c58e645b",
+        "id": "705267970d102438",
         "type": "tabs",
         "children": [
           {
-            "id": "6ad45f4024cd3d05",
+            "id": "488fe69893f379f8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Book/Sections/Diet analysis sections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +110,19 @@
             }
           },
           {
-            "id": "3636be3531a242e9",
+            "id": "47d8d0635801a244",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Book/Sections/Diet analysis sections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "350a1ac9dc7d2a52",
+            "id": "b599fcc231fee3b7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +133,13 @@
             }
           },
           {
-            "id": "3ec5b67f8782d149",
+            "id": "e2512484c6e7b6ed",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Book/Sections/Diet analysis sections.md"
+              }
             }
           }
         ]
@@ -138,19 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e697738bd839c5ce",
+  "active": "ca4db168917e536f",
   "lastOpenFiles": [
-    "Contents.md",
-    "The Common Technical Processes and the SE Engine.md",
-    "Introduction.md",
-    "Research",
-    "An overview of the SE Engine by Project Phase.md",
-    "Cost Effectiveness Considerations.md",
-    "Distinctions between Product Verification and Product Validation.md",
-    "Competency Model for Systems Engineers.md",
-    "Human Systems Integration (HSI) in the SE Process.md",
-    "Example of using the SE Engine.md",
-    "Fundamentals of Systems Engineering/Fundamentals of Systems Engineering.md",
-    "Fundamentals of Systems Engineering"
+    "Book/Number of sections.md",
+    "Book/Sections/Diet analysis sections.md",
+    "Book/Book Structure.md",
+    "Book/Sections/Nutrient sections.md",
+    "Book/Sections/Ratio sections.md",
+    "Book/Sections",
+    "Research/Macronutrients/Protein/Methionine.md",
+    "Research/Vitamins/About Vitamins.md",
+    "Book",
+    "Research"
   ]
 }
