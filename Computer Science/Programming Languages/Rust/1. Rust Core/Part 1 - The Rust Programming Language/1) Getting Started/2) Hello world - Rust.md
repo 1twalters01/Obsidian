@@ -25,7 +25,7 @@ This should print to the terminal.
 * Rust style is to indent with four spaces, not a tab
 * `println!` calls a Rust macro. If it called a function instead, it would be entered as `println` (without the `!`).
 	* Macros don't always follow the same rules as functions.
-	* Rust macros are detailed in [[Advanced Features]]
+	* Rust macros are detailed in [[6) Macros]]
 * End lines with a semicolon (`;`)
 
 # Compiling and running

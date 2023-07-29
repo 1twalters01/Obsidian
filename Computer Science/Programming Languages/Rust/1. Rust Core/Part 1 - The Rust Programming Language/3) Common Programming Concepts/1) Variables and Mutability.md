@@ -69,7 +69,7 @@ Shadowing is different from marking a variable as `mut` because we'll get a comp
 **We are allowed to mutate a variable's type with this.** Say we wanted to get the number of spaces put in a variable and then turn that into a number. The following gives an error:
 
 ```rust
-let mut spaces = "     " # 5 spaces;
+let mut spaces = "     " // 5 spaces;
 spaces = spaces.len();
 ```
 
