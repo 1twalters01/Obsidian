@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "d1f4b0535a8e5b45",
+    "id": "490ce9a833fa3b33",
     "type": "split",
     "children": [
       {
-        "id": "23fd2a1fe33066e1",
+        "id": "067333e9fcbbb5ba",
         "type": "tabs",
         "children": [
           {
-            "id": "d539f132f1df1825",
+            "id": "e55a26cb90ad764e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Rust Core/Rust Contents.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0c6af6480e36ed5e",
+    "id": "dbfb3198eb1336d3",
     "type": "split",
     "children": [
       {
-        "id": "85abf1c5448daca9",
+        "id": "9a5687a38642b940",
         "type": "tabs",
         "children": [
           {
-            "id": "de73dbbcee913cc2",
+            "id": "78ecb6997edb5146",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "7452d89aab2bb159",
+            "id": "3a30d7cd615deb4f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "b26446dedb2726bd",
+            "id": "e40a4b072fe75979",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "9bcaa6b75fe7f485",
+    "id": "11603c11ad71e512",
     "type": "split",
     "children": [
       {
-        "id": "6a51e3f62a8e5920",
+        "id": "ad7ae362eacd35c0",
         "type": "tabs",
         "children": [
           {
-            "id": "0c953dbcd3407fe4",
+            "id": "4560319ef75098ad",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "449303db73e29632",
+            "id": "546fa7337be8a037",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "6f7ae5abd8b0f94a",
+            "id": "ecbdd090d2948bf4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,20 +114,18 @@
             }
           },
           {
-            "id": "3b12bfee6fdb8ef9",
+            "id": "4ec10ea0d299944b",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1. Rust Core/Rust Contents.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 211.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -146,33 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de73dbbcee913cc2",
-  "lastOpenFiles": [
-    "1. Rust Core/Part 2 - Rust and WebAssembly",
-    "1. Rust Core/Part 1 - The Rust Programming Language",
-    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/2) Data Types.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/1) Variables and Mutability.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/4) Comments.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/1) Getting Started/3) Cargo.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/1) Getting Started/2) Hello world - Rust.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/1) Getting Started/1) Installation.md",
-    "1. Rust Core/Rust Contents.md",
-    "2. Rust Wasm",
-    "2. Rust Libraries/lazy_static",
-    "2. Rust Libraries/Chrono",
-    "2. Rust Libraries/anyhow",
-    "2. Rust Libraries/tokio",
-    "2. Rust Libraries/thiserror",
-    "2. Rust Libraries/Syn",
-    "2. Rust Libraries/log",
-    "2. Rust Libraries/rand",
-    "Rust Core/Publishing a Crate to Crates.io.md",
-    "Rust Core/6) Macros.md",
-    "All the places patterns can be.md",
-    "Rust Core/2) Common Programming Concepts/5) Control Flow.md",
-    "Rust Core/2) Common Programming Concepts/3) Functions.md",
-    "Rust Core/3) Understanding Ownership/3) The Slice Type.md",
-    "Rust Core/3) Understanding Ownership/1) What is Ownership.md",
-    "Rust Core/3) Understanding Ownership/2) References and Borrowing.md"
-  ]
+  "active": "e55a26cb90ad764e",
+  "lastOpenFiles": []
 }
