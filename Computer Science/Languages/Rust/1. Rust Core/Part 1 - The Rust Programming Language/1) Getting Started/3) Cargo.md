@@ -28,7 +28,7 @@ The first command creates a new directory and project called `file_name`.
 		* Override this behaviour by using `cargo new --vcs=git`
 
 Open `Cargo.toml`. You should see the following:
-```rust
+```toml
 [package]
 name = "hello_cargo"
 version = "0.1.0"

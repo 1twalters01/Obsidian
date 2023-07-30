@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "490ce9a833fa3b33",
+    "id": "02a2c3176fc26f26",
     "type": "split",
     "children": [
       {
-        "id": "067333e9fcbbb5ba",
+        "id": "81112753ed2ebf67",
         "type": "tabs",
         "children": [
           {
-            "id": "e55a26cb90ad764e",
+            "id": "d6cd5968d7cfc241",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. Kotlin Core/Kotlin Contents.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "dbfb3198eb1336d3",
+    "id": "9f8d661f07f891fa",
     "type": "split",
     "children": [
       {
-        "id": "9a5687a38642b940",
+        "id": "9d286d2756fa75c4",
         "type": "tabs",
         "children": [
           {
-            "id": "78ecb6997edb5146",
+            "id": "2961a9390f0708d6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +43,7 @@
             }
           },
           {
-            "id": "3a30d7cd615deb4f",
+            "id": "329ff8a05c3a0c2e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +58,7 @@
             }
           },
           {
-            "id": "e40a4b072fe75979",
+            "id": "581ad5f9c30ab153",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,19 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "11603c11ad71e512",
+    "id": "3aec0e2937289967",
     "type": "split",
     "children": [
       {
-        "id": "ad7ae362eacd35c0",
+        "id": "fb32bc2865a1381d",
         "type": "tabs",
         "children": [
           {
-            "id": "4560319ef75098ad",
+            "id": "e7e24338130ba952",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. Kotlin Core/Kotlin Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +97,19 @@
             }
           },
           {
-            "id": "546fa7337be8a037",
+            "id": "2271e78c08656d30",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. Kotlin Core/Kotlin Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "ecbdd090d2948bf4",
+            "id": "458f8a4585128744",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +120,13 @@
             }
           },
           {
-            "id": "4ec10ea0d299944b",
+            "id": "afd272fa70289f78",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. Kotlin Core/Kotlin Contents.md"
+              }
             }
           }
         ]
@@ -138,6 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e55a26cb90ad764e",
-  "lastOpenFiles": []
+  "active": "d6cd5968d7cfc241",
+  "lastOpenFiles": [
+    "1. Kotlin Core/Kotlin Contents.md",
+    "3. Kotlin Frameworks/Android Studio",
+    "3. Kotlin Frameworks",
+    "2. Kotlin Libraries",
+    "1. Kotlin Core"
+  ]
 }
