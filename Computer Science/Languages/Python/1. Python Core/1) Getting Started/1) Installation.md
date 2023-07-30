@@ -11,7 +11,7 @@ Type the following int othe command line:
    * You should see a command for installing Homebrew near the top of the page under the tile “Install Homebrew.”
      * Enter this into a terminal window and complete all the steps 
    * Open a terminal window and enter `brew update && brew upgrade`
-2)Run the command `brew install python3` in a terminal
+2) Run the command `brew install python3` in a terminal
 
 ## Windows
 1) Go to https://www.python.org/downloads/
