@@ -11,7 +11,7 @@ fn main() {
 }
 ```
 
-Then run `rustc main.rs` and then `.\main.exe`
+Then type `rustc main.rs` and then `.\main.exe` into a terminal.
 This should print to the terminal.
 
 # Example Analysis
