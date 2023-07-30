@@ -1,8 +1,13 @@
 # Installation
 ## Linux or macOS
 1) Open a terminal and enter the following command:
-2) If the install is successful, the following line will appear: `Rust is installed now. Great!`
-3) You will also need a linker - a program that Rust uses to join its compiled outputs into one file.
+
+```terminal
+$ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+```
+
+3) If the install is successful, the following line will appear: `Rust is installed now. Great!`
+4) You will also need a linker - a program that Rust uses to join its compiled outputs into one file.
 	* If you get linker errors, you should install a C compiler, which will typically include a linker. A C compiler is also useful as some common Rust packages depend on C code and will need a C compiler
 	* On macOS, you can get a C compiler by running: `xcode-select --install`
 	* Linux users should install GCC or Clang, according to their distribution's documentation.
