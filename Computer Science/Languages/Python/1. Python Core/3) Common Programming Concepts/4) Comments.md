@@ -3,7 +3,7 @@ Python does not really have a syntax for multiline comments.
 To add a multiline comment you could insert a `#` for each line.
 
 ```python
-# Comment here
+# One comment here
 # Another comment here
 ```
 

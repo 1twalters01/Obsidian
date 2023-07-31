@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/2) Data Types.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/5) Control Flow.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/2) Data Types.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/5) Control Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/2) Data Types.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/5) Control Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/2) Data Types.md"
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/5) Control Flow.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "d539f132f1df1825",
   "lastOpenFiles": [
-    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/4) Comments.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/1) Variables and Mutability.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/3) Functions.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/2) Data Types.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/4) Comments.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/1) Getting Started/3) Cargo.md",
     "1. Rust Core/Rust Contents.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership/2) References and Borrowing.md",
@@ -159,8 +161,6 @@
     "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership/1) What is Ownership.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/5) Control Flow.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership",
-    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/3) Functions.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/2) Data Types.md",
     "2. Rust Libraries/sqlx",
     "1. Rust Core/Part 2 - Rust and WebAssembly",
     "1. Rust Core/Part 1 - The Rust Programming Language",
