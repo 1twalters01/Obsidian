@@ -1,4 +1,4 @@
-# Cargo
+# About Cargo
 * Cargo is Rust's build system and package manager.
 * Cargo handles a things such as:
 	* Building your code
@@ -13,7 +13,7 @@
 	* `cargo build`
 
 # Creating a project with Cargo
-Run the folllowing on any operating system to create a project with Cargo:
+Run the following on any operating system to create a project with Cargo:
 `cargo new file_name`
 `cd file_name`
 

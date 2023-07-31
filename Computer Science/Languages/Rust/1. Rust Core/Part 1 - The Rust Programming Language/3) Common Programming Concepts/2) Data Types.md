@@ -113,7 +113,7 @@ fn main() {
 	* zero-width spaces
 * Unicode Scalar Values range from `U+0000` to `U+D7FF` and `U+10FFFF` to `U+10FFFF` inclusive
 
-# Compound type
+# Compound Types
 Compound types can group multiple values into one type. Rust has two primitive compound types: tuples and arrays.
 
 * Arrays like [1, 2, 3]
