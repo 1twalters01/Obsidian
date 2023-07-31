@@ -7,7 +7,9 @@
 Put the following into a file called *main.rs*:
 ```rust
 fn main() {
-	println!("Hello world");
+    for i in 0..3 {
+        println!("Hello world");
+    }
 }
 ```
 
