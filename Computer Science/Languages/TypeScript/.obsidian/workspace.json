@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "9e27829dbc47a2e7",
+        "id": "b564dfdefa79732e",
         "type": "tabs",
         "children": [
           {
-            "id": "0921354754c7b2b8",
+            "id": "03a9cbcc3cbf6612",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. TypeScript Core/TypeScript Content.md",
+                "file": "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/3) Pnpm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23da54b1ef374343",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/3) Pnpm.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. TypeScript Core/TypeScript Content.md",
+                "file": "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/3) Pnpm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. TypeScript Core/TypeScript Content.md",
+                "file": "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/3) Pnpm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. TypeScript Core/TypeScript Content.md"
+                "file": "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/3) Pnpm.md"
               }
             }
           }
@@ -146,15 +158,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0921354754c7b2b8",
+  "active": "03a9cbcc3cbf6612",
   "lastOpenFiles": [
-    "1. TypeScript Core/TypeScript Content.md",
+    "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/1) JS Installation.md",
+    "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/3) Pnpm.md",
+    "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/2) Hello World - JavaScript.md",
+    "1. TypeScript Core/TypeScript Contents.md",
+    "1. TypeScript Core/Part 2 - TypeScript/1) Getting Started/2) Hello World - TypeScript.md",
+    "1. TypeScript Core/Part 2 - TypeScript/1) Getting Started/1) TS Installation.md",
+    "Untitled.md",
+    "1. TypeScript Core/Part 2 - TypeScript/1) Getting Started",
+    "1. TypeScript Core/Part 2 - TypeScript",
+    "1. TypeScript Core/Part 1 - JavaScript",
+    "1. TypeScript Core/Part 1 - JavaScript/1) Getting started",
+    "1) Installation.md",
     "2. TypeScript Libraries/Jest",
     "2. TypeScript Libraries/Playwright",
     "3. TypeScript Frameworks/Express",
     "3. TypeScript Frameworks/Next",
     "3. TypeScript Frameworks/Angular",
-    "3. TypeScript Frameworks/React-Native",
-    "3. TypeScript Frameworks/React"
+    "3. TypeScript Frameworks/React-Native"
   ]
 }
