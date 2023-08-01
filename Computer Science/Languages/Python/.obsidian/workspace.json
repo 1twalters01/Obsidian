@@ -30,18 +30,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8da67d2f6235840e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Python Core/3) Common Programming Concepts/3) Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -175,9 +163,9 @@
   "lastOpenFiles": [
     "1. Python Core/3) Common Programming Concepts/3) Functions.md",
     "1. Python Core/3) Common Programming Concepts/1) Variables.md",
-    "1. Python Core/Python Contents.md",
-    "1. Python Core/3) Common Programming Concepts/5) Control Flow.md",
     "1. Python Core/3) Common Programming Concepts/4) Comments.md",
+    "1. Python Core/3) Common Programming Concepts/5) Control Flow.md",
+    "1. Python Core/Python Contents.md",
     "1. Python Core/3) Common Programming Concepts/2) Data Types.md",
     "1. Python Core/3) Common Programming Concepts/Numeric Operations.md",
     "1. Python Core/3) Common Programming Concepts/Text.md",

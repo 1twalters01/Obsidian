@@ -141,7 +141,7 @@ fn main() {
 
     while nubmer != 0 {
         println!("{number}!");
-        nubmer -= 1;
+        number -= 1;
     }
 
     println!("Blast off")
