@@ -1,4 +1,4 @@
-The most common constructs that let you control the flow of execution of Rust code are if expressions and loops, though other ones exist.
+The most common constructs that let you control the flow of execution of Rust code are if expressions and loops, though other ones, like match, exist.
 
 # If/Else If/Else
 You do an if statement as follows:
