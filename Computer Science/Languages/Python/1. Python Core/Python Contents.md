@@ -9,4 +9,9 @@
 	3) [[3) Functions]]
 	4) [[4) Comments]]
 	5) [[3) Functions]]
-4) 
+4) More on Data Structures
+5) Modules
+6) Input and Output
+7) Errors and Exceptions
+8) Classes
+9) The Standard Library
