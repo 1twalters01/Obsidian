@@ -7,7 +7,8 @@
 Put the following into a file called *main.rs*:
 ```rust
 fn main() {
-    for i in 0..3 {
+    times: int8 = 3;
+    for i in 0..times {
         println!("Hello world");
     }
 }

@@ -32,7 +32,7 @@ We will now add axios, jest and TypeScript.
 `pnpm add --save-dev jest`
 `pnpm add -D typescript @types/node`
 
-Additionally, replace the test error with jest:
+Additionally, replace the test error with jest and add a build and dev in scripts:
 ```json
 {
   "name": "conjuu-pnpm",
@@ -40,6 +40,8 @@ Additionally, replace the test error with jest:
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -p tsconfig.prod.json",
+    "dev": "tsc -p tsconfig.dev.json",
     "test": "jest"
   },
   "keywords": [],
@@ -60,23 +62,40 @@ This file is in the JSON format, which is pnpm's configuration format.
 
 Note that typescript and jest are in devDependencies. This is because they are needed during development but not deployment (you don't test in prod, and don't have types in prod as typescript gets compiled to javascript).
 
-Let's add a .gitignore file in the main directory that contains the following to it: `node-modules/`
+Let's add a `.gitignore` file in the main directory that contains the following to it:
+```gitignore
+node-modules/
+target/
+```
 Create an `src` directory.
 
 We also need the `tsconfig.json` file. Create both a `tsconfig.dev.json` and a `tsconfig.json` file.
 
-In the `tsconfig.json` file, put:
+In the `tsconfig.dev.json` file, put:
 ```json
-// tsconfig.json
+// tsconfig.dev.json
 {
-  "extends": "./tsconfig.dev.json",
-  "include": ["src"]
+  "compilerOptions": {
+    "outDir": "target/debug"
+  },
+  "extends": "./tsconfig.base.json"
 }
 ```
 
-And in the tsconfig.dev.json file, put:
+In the `tsconfig.prod.json` file, put:
 ```json
-// tsconfig.dev.json
+// tsconfig.prod.json
+{
+  "compilerOptions": {
+    "outDir": "target/release"
+  },
+  "extends": "./tsconfig.prod.json"
+}
+```
+
+And in the tsconfig.base.json file, put:
+```json
+// tsconfig.base.json
 {
   "compilerOptions": {
     "strict": true,
@@ -89,11 +108,13 @@ And in the tsconfig.dev.json file, put:
     "sourceMap": true,
     "jsx": "react-jsx",
     "moduleResolution": "node",
-    "outDir": "target/debug"
-  }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"],
+
 }
 ```
 
 This set up allows us to change our tsconfig easily for different builds.
 
-Run `pnpm tsc` to compile the program.
+Run `pnpm build` to compile the program for a build release and `pnpm dev` for a dev build. We will change what is on the Right hand side of these in the package.json later.
