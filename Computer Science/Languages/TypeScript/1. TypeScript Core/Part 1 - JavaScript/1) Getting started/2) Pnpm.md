@@ -60,7 +60,7 @@ Additionally, replace the test error with jest and add a build and dev in script
 
 This file is in the JSON format, which is pnpm's configuration format.
 
-Note that typescript and jest are in devDependencies. This is because they are needed during development but not deployment (you don't test in prod, and don't have types in prod as typescript gets compiled to javascript).
+Note that typescript and jest are in devDependencies. This is because they are needed during development but not deployment (you don't test in prod, and don't have types in prod as typescript gets compiled to javascript). Axios is a regular dependency as the final code will use it.
 
 Let's add a `.gitignore` file in the main directory that contains the following to it:
 ```gitignore
