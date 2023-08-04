@@ -13,7 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/4) Additional Tooling.md",
+                "file": "1. TypeScript Core/TypeScript Contents.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41483a3ea3ecde6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. TypeScript Core/TypeScript Contents.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b57e6275bd4d8272",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. TypeScript Core/3) Common Programming Concepts/2) Object Prototypes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30115a2df05cdd38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. TypeScript Core/3) Common Programming Concepts/3) Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/4) Additional Tooling.md",
+                "file": "1. TypeScript Core/TypeScript Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/4) Additional Tooling.md",
+                "file": "1. TypeScript Core/TypeScript Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/4) Additional Tooling.md"
+                "file": "1. TypeScript Core/TypeScript Contents.md"
               }
             }
           }
@@ -160,13 +197,23 @@
   },
   "active": "bd857c529a7cb579",
   "lastOpenFiles": [
-    "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/2) Pnpm.md",
+    "1. TypeScript Core/6) Asynchronous JavaScript",
+    "1. TypeScript Core/3) Common Programming Concepts/2) Object Prototypes.md",
+    "1. TypeScript Core/3) Common Programming Concepts/3) Functions.md",
+    "1. TypeScript Core/3) Common Programming Concepts/4) Comments.md",
+    "1. TypeScript Core/3) Common Programming Concepts/5) Control Flow.md",
+    "1. TypeScript Core/3) Common Programming Concepts/1) Variables and mutability.md",
     "1. TypeScript Core/TypeScript Contents.md",
-    "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/4) Additional Tooling.md",
-    "1. TypeScript Core/Part 1 - JavaScript/2) Common Programming Concepts/4) JS Comments.md",
-    "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/3) Hello World - JavaScript.md",
-    "1. TypeScript Core/Part 1 - JavaScript/1) Getting started/1) JS Installation.md",
-    "1. TypeScript Core/Part 1 - JavaScript/2) Common Programming Concepts",
+    "1. TypeScript Core/5) Objects/1) Object Basics.md",
+    "1. TypeScript Core/5) Objects",
+    "1. TypeScript Core/4) Events",
+    "1. TypeScript Core/1) Getting started/4) Additional Tooling.md",
+    "1. TypeScript Core/Part 1 - JavaScript/2) Example/Untitled.md",
+    "1. TypeScript Core/1) Getting started/2) Pnpm.md",
+    "1. TypeScript Core/2) Example",
+    "1. TypeScript Core/1) Getting started/3) Hello World - JavaScript.md",
+    "1. TypeScript Core/1) Getting started/1) JS Installation.md",
+    "1. TypeScript Core/3) Common Programming Concepts",
     "2) Pnpm.md",
     "1. TypeScript Core/Part 2 - TypeScript/1) Getting Started/2) Hello World - TypeScript.md",
     "1. TypeScript Core/Part 2 - TypeScript/1) Getting Started/1) TS Installation.md",
@@ -174,12 +221,9 @@
     "1. TypeScript Core/Part 2 - TypeScript/1) Getting Started",
     "1. TypeScript Core/Part 2 - TypeScript",
     "1. TypeScript Core/Part 1 - JavaScript",
-    "1. TypeScript Core/Part 1 - JavaScript/1) Getting started",
+    "1. TypeScript Core/1) Getting started",
     "1) Installation.md",
     "2. TypeScript Libraries/Jest & Playwright",
-    "2. TypeScript Libraries/Playwright",
-    "3. TypeScript Frameworks/Express",
-    "3. TypeScript Frameworks/Next",
-    "3. TypeScript Frameworks/Angular"
+    "2. TypeScript Libraries/Playwright"
   ]
 }

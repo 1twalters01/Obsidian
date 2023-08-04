@@ -86,7 +86,7 @@ root: true,
 }
 ```
 
-4) Create some sus code inside the `src` folder:
+4) Create some sus code inside the `src` folder named `main.ts`:
 ```ts
 const amount: number = 3;
 const foo:any = 29;
@@ -163,12 +163,41 @@ describe('Google', () => {
 This will be useful for end to end tests. How to use Jest and Playwright will be shown in the respective library.
 
 # ESBuild
-https://esbuild.github.io/getting-started/#bundling-for-the-browser
-Currently, our files rely on the node_modules directory. This is obviously not good as this is local to our computer, and we want the client's computer to be able to run our programs. We are also likely to have many js files, have our code not be minified, and for it to take up more space than necessary. A bundler puts everything together in a self contained way so that we don't need any other files. ESBuild is our bundler of choice due to its speed. The swc bundler is under construction so we will not use it.
+JavaScript was created to run on web browsers so let's create a html file. Make a public dir and put an `index.html` file in there. Fill it with the following:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  </head>
+  <body>
+	<script src="../target/debug/example.js"></script>
+  </body>
+</html>
+```
+
+You will upon opening this file on a web browser, you will see an error stating `SyntaxError: Cannot use import statement outside a module`. This is because the modules are unbundled.
+
+Currently, our files rely on the node_modules directory, which can't be accessed from the browser. Bundling them means that everything is put together in a self contained way. ESBuild is our bundler of choice due to its speed.
+
 
 1) Run `pnpm add --save-exact esbuild` to install it
-2) Add `"build": "esbuild app.jsx --bundle --outfile=out.js"` to script in package.json
-3) 
+2) In `package.json` change
+	`"dev": "swc src -d target/debug"`
+	to
+	`"dev": "swc src -d target/debug && esbuild target/debug/main.js --bundle --outfile=target/debug/dist/main.js"`
+3) In `package.json` change
+	``"build": "tsc -p tsconfig.prod.json"``
+	to
+	``"build": "tsc -p tsconfig.prod.json && esbuild target/debug/main.js --bundle --outfile=target/release/dist/main.js""``
+5) Change the html file's script location to either `../target/debug/dist/main.js` or `../target/release/dist/main.js`, respectively.
+
+The code obviously doesn't work (you get a CORS policy error or it just won't work as it is a fake link), but you can clearly see that the actual JavaScript module loaded.
 
 # Summary
 We now have a:
@@ -177,4 +206,6 @@ We now have a:
 * a tester - to test the code we write
 * a dev builder - to quickly make a dev build of our code
 *  a release builder - to ensure our code is perfect, though it takes long to do
-* a bundler - to bundle our perfected code.
+* a bundler - to bundle our code.
+
+Serving the http file via a server is something discussed in the Express framework section. That is not of scope in this chapter - this was just about basic tooling we will want.

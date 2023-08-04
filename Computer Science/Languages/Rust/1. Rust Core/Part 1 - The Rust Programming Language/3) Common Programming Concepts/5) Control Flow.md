@@ -70,7 +70,13 @@ fn main() {
 ```
 
 * Use the `break` keyword within the loop to tell the program to break out of the loop.
+```rust
+
+```
 * Use the `continue` keyword to skip over any remaining code in this iteration of the loop and go to the next iteration.
+```rust
+
+```
 
 ### Returning values from Loops
 You may need to pass the result of an operation out of a loop and into the rest of your code. Do this by adding what you want returned after the break expression used to stop the loop.
