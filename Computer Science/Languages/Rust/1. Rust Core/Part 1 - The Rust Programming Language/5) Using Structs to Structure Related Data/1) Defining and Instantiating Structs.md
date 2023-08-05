@@ -88,7 +88,21 @@ fn main() {
 
 
 
+
+
+
+
+
+
+
 # Unit-Like Structs Without Any Fields
+
+
+
+
+
+
+
 
 
 
@@ -97,14 +111,6 @@ fn main() {
 
 
 
-
-# An Example Program Using Structs
-
-
-
-
-
-## Refactoring with Structs: Adding More Meaning
 
 
 
