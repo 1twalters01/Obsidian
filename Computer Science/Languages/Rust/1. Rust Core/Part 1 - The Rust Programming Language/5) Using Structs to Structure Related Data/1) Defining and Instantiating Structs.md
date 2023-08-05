@@ -103,34 +103,37 @@ Tuple structs are useful when:
 * When naming each field as in a regular struct would be verbose or redundant
 
 # Unit-Like Structs Without Any Fields
+You can also define structs that don't have any fields. These are called `unit-like structs` because they behave similarly to `()`, the unit type.
+Unit-like structs can be useful when you need to implement a trait on some type but don't have any data that you want to store in the type itself.
 
+```rust
+struct AlwaysEqual;
 
-
-
-
-
-
-
-
-
+fn main() {
+    let subject = AlwaysEqual;
+}
+```
 
 ## Ownership of Struct Data
+In the User struct definition, we used the owned `String` type rather than the `&str` string slice type. This is because we want each instance of this struct to own all of its data and for that data to be valid for as long as the entire struct is valid.
 
+It is also possible for structs to store references to data owned by something else, but this reuqires the use of lifetimes, a Rust feature discussed in Chapter 10.
 
+Lifetimes ensure that the data refwerenced by a struct is valid for as long as the struct is. The following will result in a compiler error stating that it needs lifetime specifiers:
 
+```rust
+struct User {
+    active: bool,
+    username: &str,
+    email: &str
+    sign_in_count: u64
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+fn main() {
+    let user1 = User {
+        active: true,
+        username: "someusername123",
+        email: "someone@example.com",
+        sign_in_count: 1,
+}
+```
