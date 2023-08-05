@@ -114,3 +114,20 @@ To call this associated function, we use the `::` syntax with the struct name,
 This function is namespaced by the struct: the `::` syntax is used for both associated functions and namespaces created by modules. Modules are discussed in Chapter 7.
 
 # Multiple impl Blocks
+Each struct is allowed to have multiple `impl` blocks. It makes no difference.
+
+```rust
+impl Rectangle {
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+}
+
+impl Rectangle {
+    fn can_hold(&self, other: &Rectangle) -> bool {
+        self.width > other.width && self.height > other.height
+    }
+}
+```
+
+There's no reason to do so here, but we'll see a case in chapter 10 where we discuss generic types and traits.
