@@ -1,3 +1,4 @@
+# Introduction
 Structs are similar to tuples, in that both hold multiple related values. Unlike with tuples, in a struct you'll name each piece of data so it's clear what the values mean. As an example, to define a struct for a user, we do  following:
 
 ```rust
@@ -80,20 +81,26 @@ fn main() {
     }
 ```
 
-
-
 # Using Typle Structs Without Named Fields to Create Different Types
+Rust also supports structs that look similar to tuples, called `tuple structs`. Tuple structs have the added meaning the struct name provides but don't have names associated with their files - they just have the types of the fields. For example:
 
+```rust
+struct Color(i32, i32, i32);
+struct Point(i32, i32, i32);
 
+fn main() {
+    let black = Color(0, 0, 0);
+    let origin = Point(0, 0, 0);
+}
+```
 
+Each struct you define is is own type, eeven though the fields within the struct might have the same types. For example, a function that takes a parameter of type `Color cannot take a `Point` as an argument, even though both types are made up of three `i32` values. Otherwise, tuple struct instances are similar to tuples as:
+* You can destructure them into their individual pieces
+* You can use a `.` followed by the index to access an individual value
 
-
-
-
-
-
-
-
+Tuple structs are useful when:
+* You want to give the whole tuple a name and make the tuple a different type from other tuples
+* When naming each field as in a regular struct would be verbose or redundant
 
 # Unit-Like Structs Without Any Fields
 
@@ -107,7 +114,7 @@ fn main() {
 
 
 
-# Ownership of Struct Data
+## Ownership of Struct Data
 
 
 
