@@ -15,13 +15,13 @@
 		2) [[2) References and Borrowing]]
 		3) [[3) The Slice Type]]
 	5) Using Structs to Structure Related Data
-		1) [[Defining and Instantiating Structs]]
-		2) [[An Example Program Using Structs]]
-		3) [[Method Syntax]]
+		1) [[1) Defining and Instantiating Structs]]
+		2) [[2) An Example Program Using Structs]]
+		3) [[3) Method Syntax]]
 	6) Enums and Pattern Matching
-		1) [[Defining an Enum]]
-		2) [[The match Control Flow Construct]]
-		3) [[Concise Control Flow with if let]]
+		1) [[1) Defining an Enum]]
+		2) [[2) The match Control Flow Construct]]
+		3) [[3) Concise Control Flow with if let]]
 	7) Managing Growing Projects with Packages, Crates, and Modules
 		1) [[Packages and Crates]]
 		2) [[Defining Modules to Control Scope and Privacy]]
