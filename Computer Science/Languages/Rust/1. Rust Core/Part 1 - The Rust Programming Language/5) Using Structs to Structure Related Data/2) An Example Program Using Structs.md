@@ -100,7 +100,7 @@ The primitive types we've seen implement `Display` by default because there's on
 As such, Rust doesn't try to guess and just throws an error.
 We can make our own custom print message, or use one of the following defaults:
 * println!("rect1 is {:?}", rect1);
-* println!("rect1 is {:#}", rect1);
+* println!("rect1 is {:#?}", rect1);
 
 We also have to add the Debug trait to our struct or manually implement `Debug` like so:
 

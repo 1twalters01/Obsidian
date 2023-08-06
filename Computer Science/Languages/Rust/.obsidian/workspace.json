@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "7550e131e5ad8e55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/1) Defining an Enum.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "35ba3d7729eb611a",
             "type": "leaf",
             "state": {
@@ -55,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/2) The match Control Flow Construct.md",
+                "file": "1. Rust Core/Rust Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/2) The match Control Flow Construct.md",
+                "file": "1. Rust Core/Rust Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/2) The match Control Flow Construct.md"
+                "file": "1. Rust Core/Rust Contents.md"
               }
             }
           }
@@ -184,16 +171,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35ba3d7729eb611a",
+  "active": "d539f132f1df1825",
   "lastOpenFiles": [
-    "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/1) Defining an Enum.md",
-    "1. Rust Core/Rust Contents.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/3) Concise Control Flow with if let.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/2) The match Control Flow Construct.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching",
-    "1. Rust Core/Part 1 - The Rust Programming Language/5) Using Structs to Structure Related Data/3) Method Syntax.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership/3) The Slice Type.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/5) Using Structs to Structure Related Data/2) An Example Program Using Structs.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/5) Using Structs to Structure Related Data/3) Method Syntax.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/1) Defining an Enum.md",
+    "1. Rust Core/Rust Contents.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching",
+    "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership/3) The Slice Type.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership/2) References and Borrowing.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership/1) What is Ownership.md",
     "Pasted image 20230804234341.png",

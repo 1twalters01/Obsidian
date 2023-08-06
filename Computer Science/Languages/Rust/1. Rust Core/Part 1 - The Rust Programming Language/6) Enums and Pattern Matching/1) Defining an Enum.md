@@ -38,7 +38,7 @@ route(IPAddrKind::V4);
 route(IPAddrKind::V6);
 ```
 
-Using enums has more advantages. You might be tempted to tackle this problem with structs:
+You might be tempted to tackle this problem with structs:
 
 ```rust
 enum IpAddrKind {
@@ -116,7 +116,7 @@ enum IpAddr {
 }
 ```
 
-This shows that you can put any kind of data inside of an enum variant, even another enum.
+You can put any kind of data inside of an enum variant, even another enum.
 
 We can create and use our own definition even though the standard library contains one as we haven't brought the std one into our scope.
 
@@ -177,9 +177,7 @@ Expressing this concept in terms of the type system means the compiler can check
 
 Rust doesn’t have the null feature that many other languages have. In languages with null, variables can always be in one of two states: null or not-null.
 
-The problem with null values is that if you try to use it as a not-null value, you'll get an error. It is extremely easy to make this kind of error.
-
-The concept that null is trying to express is useful though: a null is a value that is currently invalid or absent for some reason.
+The problem with null values is that if you try to use it as a not-null value, you'll get an error. It is extremely easy to make this kind of error. The concept that null is trying to express is useful though: a null is a value that is currently invalid or absent for some reason.
 
 The implementation is the problem. Rust therefore does not have nulls, but it does have an enum that can encode the concept of a value being present or absent.
 
@@ -225,16 +223,8 @@ This panics. the error message means that Rust doesn't understand how to add an 
 
 When we have a value of a type like `i8` in Rust, the compiler will ensure that we always have a valid value so we can proceed confidently without having to check for null before using that value. Only with `Option<i8>` (or what value we're working with) do we have to worry about possibly not having a value. The compiler will make sure we handle that case before using the value.
 
-We need to convert an `Option<T>` to a `T` before we can perform `T` operations with it. This generally catches bugs where we assume something isn't null when it actually is.
+Everywhere that a value has a type that isn’t an `Option<T>`, you _can_ safely assume that the value isn’t null. This was a deliberate design decision for Rust to limit null’s pervasiveness and increase the safety of Rust code. Becoming familiar with the methods on `Option<T>`[its documentation](https://doc.rust-lang.org/std/option/enum.Option.html) will be extremely useful.
 
-In order to have a value that can possibly be null, you must explicitly opt in by making the type of that value `Option<T>`. Then, when you use that value, you are required to explicitly handle the case when the value is null.
-
-Everywhere that a value has a type that isn’t an `Option<T>`, you _can_ safely assume that the value isn’t null. This was a deliberate design decision for Rust to limit null’s pervasiveness and increase the safety of Rust code.
-
-Becoming familiar with the methods on `Option<T>`[its documentation](https://doc.rust-lang.org/std/option/enum.Option.html) will be extremely useful in your journey with Rust.
-
-In general, in order to use an `Option<T>` value, you want to have code that will handle each variant.
-
-You want some code that will run only when you have a `Some(T)` value, and this code is allowed to use the inner `T`. You want some other code to run only if you have a `None` value, and that code doesn’t have a `T` value available.
+In general, in order to use an `Option<T>` value, you want to have code that will handle each variant. You want some code that will run only when you have a `Some(T)` value, and this code is allowed to use the inner `T`. You want some other code to run only if you have a `None` value, and that code doesn’t have a `T` value available.
 
 The `match` expression is a control flow construct that does just this when used with enums: it will run different code depending on which variant of the enum it has, and that code can use the data inside the matching value.
