@@ -20,30 +20,67 @@
             }
           },
           {
-            "id": "35ba3d7729eb611a",
+            "id": "85a88a69deafdb4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/2) The match Control Flow Construct.md",
+                "file": "1) Managing growing Projects.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c454537a3a842198",
+            "id": "0f26b6ba63b90fc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/3) Concise Control Flow with if let.md",
+                "file": "2) Defining Modules to Control Scope and Privacy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "419718513b981f56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3) Paths for Referring to an Item in the Module Tree.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11a19e767d80660e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4) Bringing Paths Into Scope with the use Keyword.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45ff11cd26e0f209",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5) Separating Modules into Different Files.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md",
+                "file": "4) Bringing Paths Into Scope with the use Keyword.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md",
+                "file": "4) Bringing Paths Into Scope with the use Keyword.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md"
+                "file": "4) Bringing Paths Into Scope with the use Keyword.md"
               }
             }
           }
@@ -171,14 +208,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d539f132f1df1825",
+  "active": "11a19e767d80660e",
   "lastOpenFiles": [
+    "3) Paths for Referring to an Item in the Module Tree.md",
+    "2) Defining Modules to Control Scope and Privacy.md",
+    "1) Managing growing Projects.md",
+    "1. Rust Core/Rust Contents.md",
+    "5) Separating Modules into Different Files.md",
+    "4) Bringing Paths Into Scope with the use Keyword.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/3) Concise Control Flow with if let.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/2) The match Control Flow Construct.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/5) Using Structs to Structure Related Data/2) An Example Program Using Structs.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/5) Using Structs to Structure Related Data/3) Method Syntax.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/1) Defining an Enum.md",
-    "1. Rust Core/Rust Contents.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching",
     "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership/3) The Slice Type.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership/2) References and Borrowing.md",
@@ -205,10 +247,6 @@
     "Rust Core/Publishing a Crate to Crates.io.md",
     "Rust Core/6) Macros.md",
     "All the places patterns can be.md",
-    "Rust Core/2) Common Programming Concepts/5) Control Flow.md",
-    "Rust Core/2) Common Programming Concepts/3) Functions.md",
-    "Rust Core/3) Understanding Ownership/3) The Slice Type.md",
-    "Rust Core/3) Understanding Ownership/1) What is Ownership.md",
-    "Rust Core/3) Understanding Ownership/2) References and Borrowing.md"
+    "Rust Core/2) Common Programming Concepts/5) Control Flow.md"
   ]
 }

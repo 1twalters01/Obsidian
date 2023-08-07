@@ -23,11 +23,11 @@
 		2) [[2) The match Control Flow Construct]]
 		3) [[3) Concise Control Flow with if let]]
 	7) Managing Growing Projects with Packages, Crates, and Modules
-		1) [[Packages and Crates]]
-		2) [[Defining Modules to Control Scope and Privacy]]
-		3) [[Paths for Referring to an Item in the Module Tree]]
-		4) [[Bringing Paths Into Scope with the use Keyword]]
-		5) [[Separating Modules into Different Files]]
+		1) [[1) Managing growing Projects]]
+		2) [[2) Defining Modules to Control Scope and Privacy]]
+		3) [[3) Paths for Referring to an Item in the Module Tree]]
+		4) [[4) Bringing Paths Into Scope with the use Keyword]]
+		5) [[5) Separating Modules into Different Files]]
 	8) Common Collections
 		1) [[Storing Lists of Values with Vectors]]
 		2) [[Storing UTF-8 Encoded Text with Strings]]
