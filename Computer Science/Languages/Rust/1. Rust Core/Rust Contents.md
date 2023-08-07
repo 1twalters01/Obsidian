@@ -33,17 +33,17 @@
 		2) [[2) Storing UTF-8 Encoded Text with Strings]]
 		3) [[3) Storing Keys with Associated Values in Hash Maps]]
 	9) Error Handling
-		1) [[Unrecoverable Errors with panic!]]
-		2) [[Recoverable Errors with Result]]
-		3) [[To panic! or Not to panic!]]
+		1) [1) [Unrecoverable Errors with panic!]]
+		2) [[2) Recoverable Errors with Result]]
+		3) [[3) To panic! or Not to panic!]]
 	10) Generic Types, Traits, and Lifetimes
-		1) [[Generic Data Types]]
-		2) [[Traits: Defining Shared Behaviour]]
-		3) [[Validating References with Lifetimes]]
+		1) [[1) Generic Data Types]]
+		2) [[2) Traits: Defining Shared Behaviour]]
+		3) [[3) Validating References with Lifetimes]]
 	11) Writing Automated Tests
-		1) [[How to Write Tests]]
-		2) [[Controlling How Tests are Run]]
-		3) [[Test Organisation]]
+		1) [[1) How to Write Tests]]
+		2) [[2) Controlling How Tests are Run]]
+		3) [[3) Test Organisation]]
 	12) An I/O Project: Building a Command Line Program
 		1) [[Accepting Command Line Arguments]]
 		2) [[Reading a File]]
