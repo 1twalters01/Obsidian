@@ -20,67 +20,43 @@
             }
           },
           {
-            "id": "85a88a69deafdb4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1) Managing growing Projects.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0f26b6ba63b90fc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2) Defining Modules to Control Scope and Privacy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "419718513b981f56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3) Paths for Referring to an Item in the Module Tree.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11a19e767d80660e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4) Bringing Paths Into Scope with the use Keyword.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "45ff11cd26e0f209",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5) Separating Modules into Different Files.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/5) Separating Modules into Different Files.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "adba512710c17ec6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/1) Storing Lists of Values with Vectors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fb6454f42472249",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9bcaa6b75fe7f485",
@@ -147,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4) Bringing Paths Into Scope with the use Keyword.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/1) Storing Lists of Values with Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4) Bringing Paths Into Scope with the use Keyword.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/1) Storing Lists of Values with Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4) Bringing Paths Into Scope with the use Keyword.md"
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/1) Storing Lists of Values with Vectors.md"
               }
             }
           }
@@ -208,14 +183,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11a19e767d80660e",
+  "active": "adba512710c17ec6",
   "lastOpenFiles": [
-    "3) Paths for Referring to an Item in the Module Tree.md",
-    "2) Defining Modules to Control Scope and Privacy.md",
-    "1) Managing growing Projects.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/1) Storing Lists of Values with Vectors.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/5) Separating Modules into Different Files.md",
     "1. Rust Core/Rust Contents.md",
-    "5) Separating Modules into Different Files.md",
-    "4) Bringing Paths Into Scope with the use Keyword.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/3) Storing Keys with Associated Values in Hash Maps.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/1) Managing growing Projects.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules",
+    "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/4) Bringing Paths Into Scope with the use Keyword.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/3) Paths for Referring to an Item in the Module Tree.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/2) Defining Modules to Control Scope and Privacy.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/3) Concise Control Flow with if let.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/2) The match Control Flow Construct.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/5) Using Structs to Structure Related Data/2) An Example Program Using Structs.md",
@@ -243,10 +222,6 @@
     "2. Rust Libraries/lazy_static",
     "2. Rust Libraries/Chrono",
     "2. Rust Libraries/anyhow",
-    "2. Rust Libraries/tokio",
-    "Rust Core/Publishing a Crate to Crates.io.md",
-    "Rust Core/6) Macros.md",
-    "All the places patterns can be.md",
-    "Rust Core/2) Common Programming Concepts/5) Control Flow.md"
+    "Rust Core/Publishing a Crate to Crates.io.md"
   ]
 }

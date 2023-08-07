@@ -29,9 +29,9 @@
 		4) [[4) Bringing Paths Into Scope with the use Keyword]]
 		5) [[5) Separating Modules into Different Files]]
 	8) Common Collections
-		1) [[Storing Lists of Values with Vectors]]
-		2) [[Storing UTF-8 Encoded Text with Strings]]
-		3) [[Storing Keys with Associated Values in Hash Maps]]
+		1) [[1) Storing Lists of Values with Vectors]]
+		2) [[2) Storing UTF-8 Encoded Text with Strings]]
+		3) [[3) Storing Keys with Associated Values in Hash Maps]]
 	9) Error Handling
 		1) [[Unrecoverable Errors with panic!]]
 		2) [[Recoverable Errors with Result]]
