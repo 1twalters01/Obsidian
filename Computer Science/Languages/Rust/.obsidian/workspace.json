@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4c3a08ce051c3216",
+            "id": "8a929cf1efc5288e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,129 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "19229949b407e1f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a592be82a7cfff1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/3) Storing Keys with Associated Values in Hash Maps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81efbeef96e1ebfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/1) Unrecoverable Errors with `panic!`.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2615920b32a3f8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/2) Recoverable Errors with Result.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "253313b3a5abbb25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0577c96d98eefed2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1) Generic Data Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5ad7f0923712979",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2) Traits - Defining Shared Behaviour.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51066066ff8bb5ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3) Validating References with Lifetimes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f255f55c0ef54f04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/1) How to Write Tests.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a01b2c6f1165eb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3) Test Organisation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -69,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9bcaa6b75fe7f485",
@@ -85,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md",
+                "file": "3) Test Organisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md",
+                "file": "3) Test Organisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md"
+                "file": "3) Test Organisation.md"
               }
             }
           }
@@ -146,18 +268,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c3a08ce051c3216",
+  "active": "0a01b2c6f1165eb8",
   "lastOpenFiles": [
-    "4) Comparing Performance - Loops vs. Iterators.md",
     "1. Rust Core/Rust Contents.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/3) Storing Keys with Associated Values in Hash Maps.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/1) How to Write Tests.md",
+    "3) Test Organisation.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/2) Controlling How Tests are Run.md",
+    "3) Validating References with Lifetimes.md",
+    "1) Generic Data Types.md",
+    "2) Traits - Defining Shared Behaviour.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests",
+    "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes",
+    "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/2) Recoverable Errors with Result.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/1) Unrecoverable Errors with `panic!`.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling",
+    "4) Comparing Performance - Loops vs. Iterators.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/1) Vectors.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/3) Storing Keys with Associated Values in Hash Maps.md",
+    "Pasted image 20230804204732.png",
     "Reading a File.md",
     "1).md",
-    "2) Recoverable Errors with Result.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/3) Paths for Referring to an Item in the Module Tree.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/5) Separating Modules into Different Files.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/1) Storing Lists of Values with Vectors.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/1) Managing growing Projects.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules",
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/4) Bringing Paths Into Scope with the use Keyword.md",
@@ -168,23 +302,11 @@
     "1. Rust Core/Part 1 - The Rust Programming Language/5) Using Structs to Structure Related Data/3) Method Syntax.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/1) Defining an Enum.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching",
-    "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership/3) The Slice Type.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership/2) References and Borrowing.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership/1) What is Ownership.md",
     "Pasted image 20230804234341.png",
-    "Pasted image 20230804204732.png",
-    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/1) Variables and Mutability.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/2) Data Types.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/5) Control Flow.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/1) Getting Started/1) Installation.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/1) Getting Started/2) Hello world - Rust.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership",
     "2. Rust Libraries/sqlx",
     "1. Rust Core/Part 2 - Rust and WebAssembly",
     "1. Rust Core/Part 1 - The Rust Programming Language",
-    "2. Rust Wasm",
-    "2. Rust Libraries/lazy_static",
-    "2. Rust Libraries/Chrono",
-    "2. Rust Libraries/anyhow"
+    "2. Rust Wasm"
   ]
 }

@@ -29,16 +29,16 @@
 		4) [[4) Bringing Paths Into Scope with the use Keyword]]
 		5) [[5) Separating Modules into Different Files]]
 	8) Common Collections
-		1) [[1) Storing Lists of Values with Vectors]]
+		1) [[1) Vectors]]
 		2) [[2) Storing UTF-8 Encoded Text with Strings]]
 		3) [[3) Storing Keys with Associated Values in Hash Maps]]
 	9) Error Handling
-		1) [[1) Unrecoverable Errors with panic!]]
+		1) [[1) Unrecoverable Errors with `panic!`]]
 		2) [[2) Recoverable Errors with Result]]
 		3) [[3) To panic! or Not to panic!]]
 	10) Generic Types, Traits, and Lifetimes
 		1) [[1) Generic Data Types]]
-		2) [[2) Traits: Defining Shared Behaviour]]
+		2) [[2) Traits - Defining Shared Behaviour]]
 		3) [[3) Validating References with Lifetimes]]
 	11) Writing Automated Tests
 		1) [[1) How to Write Tests]]
