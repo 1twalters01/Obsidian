@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "81efbeef96e1ebfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/1) Unrecoverable Errors with `panic!`.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a2615920b32a3f8d",
             "type": "leaf",
             "state": {
@@ -140,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3) Test Organisation.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3) Test Organisation.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3) Test Organisation.md"
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md"
               }
             }
           }
@@ -268,11 +256,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a01b2c6f1165eb8",
+  "active": "19229949b407e1f8",
   "lastOpenFiles": [
+    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/3) Storing Keys with Associated Values in Hash Maps.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/2) Recoverable Errors with Result.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/1) Unrecoverable Errors with `panic!`.md",
+    "3) Test Organisation.md",
     "1. Rust Core/Rust Contents.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/1) How to Write Tests.md",
-    "3) Test Organisation.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/2) Controlling How Tests are Run.md",
     "3) Validating References with Lifetimes.md",
     "1) Generic Data Types.md",
@@ -280,13 +272,9 @@
     "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests",
     "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes",
     "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/2) Recoverable Errors with Result.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/1) Unrecoverable Errors with `panic!`.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling",
     "4) Comparing Performance - Loops vs. Iterators.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/1) Vectors.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/3) Storing Keys with Associated Values in Hash Maps.md",
     "Pasted image 20230804204732.png",
     "Reading a File.md",
     "1).md",
