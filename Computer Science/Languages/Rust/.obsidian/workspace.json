@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "23fd2a1fe33066e1",
+        "id": "d597d937b99d07f3",
         "type": "tabs",
         "children": [
           {
-            "id": "d539f132f1df1825",
+            "id": "4c3a08ce051c3216",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "1. Rust Core/Rust Contents.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0fb6454f42472249",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cee1a0f95f01d8f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/3) Storing Keys with Associated Values in Hash Maps.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,12 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d539f132f1df1825",
+  "active": "4c3a08ce051c3216",
   "lastOpenFiles": [
-    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/3) Storing Keys with Associated Values in Hash Maps.md",
+    "4) Comparing Performance - Loops vs. Iterators.md",
     "1. Rust Core/Rust Contents.md",
-    "2) Recoverable Errors with Result.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/3) Storing Keys with Associated Values in Hash Maps.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
+    "Reading a File.md",
+    "1).md",
+    "2) Recoverable Errors with Result.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/3) Paths for Referring to an Item in the Module Tree.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/5) Separating Modules into Different Files.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/1) Storing Lists of Values with Vectors.md",
@@ -199,9 +178,6 @@
     "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/5) Control Flow.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/1) Getting Started/1) Installation.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/1) Getting Started/2) Hello world - Rust.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/1) Getting Started/3) Cargo.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/4) Comments.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/3) Functions.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership",
     "2. Rust Libraries/sqlx",
     "1. Rust Core/Part 2 - Rust and WebAssembly",

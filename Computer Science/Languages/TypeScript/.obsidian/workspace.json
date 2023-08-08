@@ -197,6 +197,9 @@
   },
   "active": "bd857c529a7cb579",
   "lastOpenFiles": [
+    "2. TypeScript Libraries/Axios",
+    "3. TypeScript Frameworks/Solid",
+    "2. TypeScript Libraries/three.js",
     "1. TypeScript Core/6) Asynchronous JavaScript",
     "1. TypeScript Core/3) Common Programming Concepts/2) Object Prototypes.md",
     "1. TypeScript Core/3) Common Programming Concepts/3) Functions.md",
@@ -221,9 +224,6 @@
     "1. TypeScript Core/Part 2 - TypeScript/1) Getting Started",
     "1. TypeScript Core/Part 2 - TypeScript",
     "1. TypeScript Core/Part 1 - JavaScript",
-    "1. TypeScript Core/1) Getting started",
-    "1) Installation.md",
-    "2. TypeScript Libraries/Jest & Playwright",
-    "2. TypeScript Libraries/Playwright"
+    "1) Installation.md"
   ]
 }
