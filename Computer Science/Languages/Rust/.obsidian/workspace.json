@@ -115,7 +115,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -182,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md"
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md"
               }
             }
           }
@@ -243,8 +244,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8a929cf1efc5288e",
+  "active": "253313b3a5abbb25",
   "lastOpenFiles": [
+    "1. Rust Core/Rust Contents.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/3) Storing Keys with Associated Values in Hash Maps.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/2) Recoverable Errors with Result.md",
@@ -253,7 +255,6 @@
     "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/1) Unrecoverable Errors with `panic!`.md",
     "3) Test Organisation.md",
-    "1. Rust Core/Rust Contents.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/1) How to Write Tests.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/2) Controlling How Tests are Run.md",
     "3) Validating References with Lifetimes.md",
