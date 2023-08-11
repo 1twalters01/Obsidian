@@ -8,7 +8,6 @@
 
 # Guidelines for Error Handling
 It’s advisable to have your code panic when it’s possible that your code could end up in a bad state.
-
 In this context, a _bad state_ is when:
 * some assumption, guarantee, contract, or invariant has been broken
 	* Examples include when invalid values, contradictory values, or missing values are passed to your code

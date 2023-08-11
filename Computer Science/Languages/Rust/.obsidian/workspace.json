@@ -20,30 +20,6 @@
             }
           },
           {
-            "id": "19229949b407e1f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a592be82a7cfff1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/3) Storing Keys with Associated Values in Hash Maps.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "253313b3a5abbb25",
             "type": "leaf",
             "state": {
@@ -56,36 +32,12 @@
             }
           },
           {
-            "id": "0577c96d98eefed2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1) Generic Data Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5ad7f0923712979",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2) Traits - Defining Shared Behaviour.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "51066066ff8bb5ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3) Validating References with Lifetimes.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes/3) Validating References with Lifetimes.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3) Test Organisation.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/3) Test Organisation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -246,27 +198,29 @@
   },
   "active": "253313b3a5abbb25",
   "lastOpenFiles": [
-    "1. Rust Core/Rust Contents.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes/3) Validating References with Lifetimes.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md",
+    "1. Rust Core/Rust Contents.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/3) Test Organisation.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/1) How to Write Tests.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/5) Using Structs to Structure Related Data/3) Method Syntax.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes/2) Traits - Defining Shared Behaviour.md",
+    "Reading a File.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/3) Storing Keys with Associated Values in Hash Maps.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes/1) Generic Data Types.md",
+    "Validating References with Lifetimes.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/2) Recoverable Errors with Result.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/2) The match Control Flow Construct.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/1) Defining an Enum.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/1) Unrecoverable Errors with `panic!`.md",
-    "3) Test Organisation.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/1) How to Write Tests.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/2) Controlling How Tests are Run.md",
-    "3) Validating References with Lifetimes.md",
-    "1) Generic Data Types.md",
-    "2) Traits - Defining Shared Behaviour.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests",
     "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes",
     "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling",
     "4) Comparing Performance - Loops vs. Iterators.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/1) Vectors.md",
     "Pasted image 20230804204732.png",
-    "Reading a File.md",
     "1).md",
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/3) Paths for Referring to an Item in the Module Tree.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/5) Separating Modules into Different Files.md",
@@ -275,8 +229,6 @@
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/4) Bringing Paths Into Scope with the use Keyword.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/2) Defining Modules to Control Scope and Privacy.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/3) Concise Control Flow with if let.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/5) Using Structs to Structure Related Data/2) An Example Program Using Structs.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/5) Using Structs to Structure Related Data/3) Method Syntax.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching",
     "Pasted image 20230804234341.png",
     "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership",
