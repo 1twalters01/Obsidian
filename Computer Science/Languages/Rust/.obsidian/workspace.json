@@ -20,30 +20,6 @@
             }
           },
           {
-            "id": "253313b3a5abbb25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51066066ff8bb5ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes/3) Validating References with Lifetimes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f255f55c0ef54f04",
             "type": "leaf",
             "state": {
@@ -68,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "let bytes = s.as_bytes();",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -135,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/3) Test Organisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/3) Test Organisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md"
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/3) Test Organisation.md"
               }
             }
           }
@@ -196,14 +173,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "253313b3a5abbb25",
+  "active": "0a01b2c6f1165eb8",
   "lastOpenFiles": [
+    "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/1) How to Write Tests.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/3) Test Organisation.md",
+    "1. Rust Core/Rust Contents.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership/3) The Slice Type.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes/3) Validating References with Lifetimes.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md",
-    "1. Rust Core/Rust Contents.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/3) Test Organisation.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/1) How to Write Tests.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/5) Using Structs to Structure Related Data/3) Method Syntax.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes/2) Traits - Defining Shared Behaviour.md",
     "Reading a File.md",
@@ -228,7 +206,6 @@
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules",
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/4) Bringing Paths Into Scope with the use Keyword.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/2) Defining Modules to Control Scope and Privacy.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/3) Concise Control Flow with if let.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching",
     "Pasted image 20230804234341.png",
     "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership",
