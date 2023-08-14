@@ -2,7 +2,7 @@
 Prettier is a formatter. These reformat your code in one pass, however they can't find or fix bugs.
 
 1) Run the command `pnpm add --save-dev --save-exact prettier`
-2) Create a json  file named `.prettierrc.json` where you will add your settings. An example set of settings are as follows
+2) Create a file named `.prettierrc.json` where you will add your settings. An example set of settings are as follows:
 ```json
 {
   "semi": true,
@@ -19,7 +19,7 @@ target/
 *.html
 ```
 
-4) Add prettier to the script in the package.json:
+4) Add prettier to the script in the `package.json`:
 ```json
 "scripts": {
     "format": "prettier --config .prettierrc.json src/**/*.ts --write",
@@ -34,23 +34,23 @@ target/
 
 
 # ESLint
-ESLint is a linter. Linters are used to see when we are not following code conventions. They perform automated scans of your JavaScript files for syntax and style errors. They do should not make any changes to your files. You can use ESlint to change your files, but you should not do this.
+ESLint is a linter. Linters are used to see when we are not following code conventions. They perform automated scans of your JavaScript files for syntax and style errors. They do should not make any changes to your files. You can use ESLint to change your files, but you should not do this.
 
 1) Run the command: `pnpm add --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript`
-	* the `@typescript-eslint/parser` is a parser. This is needed as eslint can't work with typescript code by default.
+	* the `@typescript-eslint/parser` is a parser. This is needed as ESLint can't work with typescript code by default.
 	* The `typescript-eslint` plugin needs to be installed. 
 	* We naturally need `eslint` and `typescript` installed, hence why they are there at the end.
 
 2) Create a `.eslintrc.cjs` file in our root directory folder. Add the following to it:
 ```js
 /* eslint-env node */  
-module.exports = {  
+module.exports = {
 extends: ['eslint:recommended',
   'plugin:@typescript-eslint/recommended'
-],  
-parser: '@typescript-eslint/parser',  
-plugins: ['@typescript-eslint'],  
-root: true,  
+],
+parser: '@typescript-eslint/parser',
+plugins: ['@typescript-eslint'],
+root: true,
 };
 ```
 
@@ -105,7 +105,7 @@ The issue is that an unused variable shouldn't break our code as we might want t
 Go to https://typescript-eslint.io/rules/ to see all the rules that you can choose.
 
 # SWC
-SWC (speedy web compiler) is a typescript transpiler written in Rust. It only transpiles code and doesn't perform type checking, so this should only be used for dev builds. It is however much faster. As such, we will use it for our dev build.
+SWC (speedy web compiler) is a typescript transpiler written in Rust. It only transpiles code and doesn't perform type checking, so this should only be used for dev builds. It is, however, much faster. As such, we will use it for our dev build.
 
 * Run `pnpm i -D @swc/cli @swc/core`
 * Change the dev settings in the `package.json` to `pnpm i -D @swc/cli @swc/core`
@@ -121,7 +121,7 @@ Jest is a JavaScript Testing framework that is focused on simplicity. It is most
 	 * We can also add the `verbose` flag to add extra output to the terminal.
 	 * It would thus look like this: `"test": "jest --watchAll --verbose --coverage`
 2) Create a `test` directory and add an `example.test.js` file.
-3) Add the test directory to our .eslintignore
+3) Add the test directory to our `.eslintignore`
 4) To run any tests, run `pnpm test`
 	* Run `pnpm test ` to see how well our tests cover our source code
 
@@ -160,7 +160,7 @@ describe('Google', () => {
 ```
 4) Run `pnpm test` to run the test
 
-This will be useful for end to end tests. How to use Jest and Playwright will be shown in the respective library.
+This will be useful for end to end tests. How to use Jest and Playwright will be shown in the respective library section.
 
 # ESBuild
 JavaScript was created to run on web browsers so let's create a html file. Make a public dir and put an `index.html` file in there. Fill it with the following:
@@ -181,7 +181,7 @@ JavaScript was created to run on web browsers so let's create a html file. Make 
 </html>
 ```
 
-You will upon opening this file on a web browser, you will see an error stating `SyntaxError: Cannot use import statement outside a module`. This is because the modules are unbundled.
+Upon opening this file on a web browser, you will see an error stating `SyntaxError: Cannot use import statement outside a module`. This is because the modules are unbundled.
 
 Currently, our files rely on the node_modules directory, which can't be accessed from the browser. Bundling them means that everything is put together in a self contained way. ESBuild is our bundler of choice due to its speed.
 
@@ -197,7 +197,7 @@ Currently, our files rely on the node_modules directory, which can't be accessed
 	``"build": "tsc -p tsconfig.prod.json && esbuild target/debug/main.js --bundle --outfile=target/release/dist/main.js""``
 5) Change the html file's script location to either `../target/debug/dist/main.js` or `../target/release/dist/main.js`, respectively.
 
-The code obviously doesn't work (you get a CORS policy error or it just won't work as it is a fake link), but you can clearly see that the actual JavaScript module loaded.
+The code obviously doesn't work (you get a CORS policy error or it just won't work as it is a fake link), but you can see that the JavaScript module loaded this time.
 
 # Summary
 We now have a:

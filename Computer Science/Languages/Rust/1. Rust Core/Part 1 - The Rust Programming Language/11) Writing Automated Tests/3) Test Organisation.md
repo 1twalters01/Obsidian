@@ -29,8 +29,14 @@ By using the `cfg` attribute, Cargo compiles our test code only if we actively
 ## Testing Private Functions
 
 # Integration Tests
+In Rust, integration tests are entirely external to your library. They use your library in the same way any other code would, which means they can only call functions that are part of your library’s public API. Their purpose is to test whether many parts of your library work together correctly.
+
+To create integration tests, you first need a _tests_ directory.
+
 ## The _tests_ Directory
 
+
 ## Submodules in Integration Tests
+
 
 ## Integration Tests for Binary Crates

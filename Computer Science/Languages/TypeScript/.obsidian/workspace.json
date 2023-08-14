@@ -20,19 +20,31 @@
             }
           },
           {
-            "id": "41483a3ea3ecde6d",
+            "id": "a8c692564ec26458",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. TypeScript Core/TypeScript Contents.md",
+                "file": "7) Events.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b57e6275bd4d8272",
+            "id": "3cfc138e321889bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. TypeScript Core/5) Objects/1) Object Basics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f9bd21ebb98d8b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,31 +56,54 @@
             }
           },
           {
-            "id": "30115a2df05cdd38",
+            "id": "680bd85aae74d074",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. TypeScript Core/3) Common Programming Concepts/3) Functions.md",
+                "file": "3) Object Oriented Programming.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "426ddfaa1455368a",
+            "id": "bb3e0459d90386c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. TypeScript Core/TypeScript Contents.md",
+                "file": "4) Classes JS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0a91e5c91310b88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5) Classes TS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad496b75da54501a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6) JSON.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a466b185b07453b7",
@@ -195,27 +231,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd857c529a7cb579",
+  "active": "03a9cbcc3cbf6612",
   "lastOpenFiles": [
+    "7) Events.md",
+    "1. TypeScript Core/TypeScript Contents.md",
+    "1. TypeScript Core/5) Objects/1) Object Basics.md",
+    "1. TypeScript Core/3) Common Programming Concepts/2) Object Prototypes.md",
+    "3) Object Oriented Programming.md",
+    "4) Classes JS.md",
+    "6) JSON.md",
+    "5) Classes TS.md",
+    "2) Data Types.md",
+    "1. TypeScript Core/3) Common Programming Concepts/5) Control Flow.md",
+    "1. TypeScript Core/3) Common Programming Concepts/3) Functions.md",
+    "1. TypeScript Core/3) Common Programming Concepts/4) Comments.md",
+    "1. TypeScript Core/3) Common Programming Concepts/1) Variables and mutability.md",
+    "1. TypeScript Core/1) Getting started/4) Additional Tooling.md",
+    "1. TypeScript Core/1) Getting started/3) Hello World - JavaScript.md",
+    "1. TypeScript Core/1) Getting started/2) Pnpm.md",
+    "1. TypeScript Core/1) Getting started/1) JS Installation.md",
     "2. TypeScript Libraries/Axios",
     "3. TypeScript Frameworks/Solid",
     "2. TypeScript Libraries/three.js",
     "1. TypeScript Core/6) Asynchronous JavaScript",
-    "1. TypeScript Core/3) Common Programming Concepts/2) Object Prototypes.md",
-    "1. TypeScript Core/3) Common Programming Concepts/3) Functions.md",
-    "1. TypeScript Core/3) Common Programming Concepts/4) Comments.md",
-    "1. TypeScript Core/3) Common Programming Concepts/5) Control Flow.md",
-    "1. TypeScript Core/3) Common Programming Concepts/1) Variables and mutability.md",
-    "1. TypeScript Core/TypeScript Contents.md",
-    "1. TypeScript Core/5) Objects/1) Object Basics.md",
     "1. TypeScript Core/5) Objects",
     "1. TypeScript Core/4) Events",
-    "1. TypeScript Core/1) Getting started/4) Additional Tooling.md",
     "1. TypeScript Core/Part 1 - JavaScript/2) Example/Untitled.md",
-    "1. TypeScript Core/1) Getting started/2) Pnpm.md",
     "1. TypeScript Core/2) Example",
-    "1. TypeScript Core/1) Getting started/3) Hello World - JavaScript.md",
-    "1. TypeScript Core/1) Getting started/1) JS Installation.md",
     "1. TypeScript Core/3) Common Programming Concepts",
     "2) Pnpm.md",
     "1. TypeScript Core/Part 2 - TypeScript/1) Getting Started/2) Hello World - TypeScript.md",
@@ -223,7 +265,6 @@
     "Untitled.md",
     "1. TypeScript Core/Part 2 - TypeScript/1) Getting Started",
     "1. TypeScript Core/Part 2 - TypeScript",
-    "1. TypeScript Core/Part 1 - JavaScript",
     "1) Installation.md"
   ]
 }

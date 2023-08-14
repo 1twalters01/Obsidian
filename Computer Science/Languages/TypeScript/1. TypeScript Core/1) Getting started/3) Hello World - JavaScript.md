@@ -1,11 +1,11 @@
 # Creating Files
 * TypeScript files always end with the `.ts` extension.
 	* `.tsx` files are used for typescript files that contain `jsx`.
-* There is no official, _universal_, convention for naming JavaScript files, though google have a js style guide.
+* There is no official, universal, convention for naming JavaScript files, though google have a [js style guide](https://google.github.io/styleguide/jsguide.html).
 	* They suggest using an underscore (`_`) to separate words and to always use lowercase.
 
 # Example
-Put the following into a file named `main.ts` in the `src` dir:
+Put the following into a file named `main.ts` in the `src` directory:
 ```typescript
 const amount: number = 3;
 
@@ -14,7 +14,7 @@ for (let i = 0; i < amount; i++) {
 }
 ```
 
-* Then run `pnpm tsc` to compile the code to FavaScript.
+* Then run `pnpm tsc` to compile the code to JavaScript.
 * Run node `target/debug/main.ts` to run the file
 
 # Example Analysis
@@ -22,7 +22,6 @@ for (let i = 0; i < amount; i++) {
 * Code bodies are wrapped in `{}`.
 	* It is good style to place the opening curly bracket on the same line as the function declaration, adding one space in between.
 * JavaScript style is to indent with two spaces, not four.
-* Use `eslint` to format your code to a particular style
 
 * console.log lets you print to the console in a web browser or to the cli in a terminal.
 	* The **`console`** object provides access to the browser's debugging console (e.g. the Web console in Firefox).

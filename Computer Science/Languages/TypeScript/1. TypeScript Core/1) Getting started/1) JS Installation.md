@@ -10,8 +10,8 @@ NVM, or Node Version Manager, is a tool for managing node versions. We will be u
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 ```
-4) With your profile configuration updated, now you will reload the configuration for your terminal to use: `source ~/.bashrc`
-5) Check that it has installed using the command `nvm --version`
+3) With your profile configuration updated, now you will reload the configuration for your terminal to use: `source ~/.bashrc`
+4) Check that it has installed using the command `nvm --version`
 ### Windows
 1) Go to [nvm-windows](https://github.com/coreybutler/nvm-windows/releases), scroll down slightly and click on download now.
 2) Click on `nvm-setup.exe`

@@ -1,7 +1,7 @@
 # About Pnpm
 * pnpm is an alternative package manager for Node.js which stands for "performant NPM". 
 * It holds packages at a global level and lets projects use them too, reducing the memory needed as duplicates aren't created.
-* The rest of this guide assumes the use of pnpm
+* The rest of this guide assumes the use of pnpm.
 * To work on existing projects all you have to do is run:
 	* `git clone example.org/someproject`
 	* `cd some project`
@@ -27,7 +27,7 @@ You should see something like the following:
 }
 ```
 
-We will now add axios, jest and TypeScript.
+We will now add Axios, jest and TypeScript.
 `pnpm add axios`
 `pnpm add --save-dev jest`
 `pnpm add -D typescript @types/node`
@@ -60,13 +60,14 @@ Additionally, replace the test error with jest and add a build and dev in script
 
 This file is in the JSON format, which is pnpm's configuration format.
 
-Note that typescript and jest are in devDependencies. This is because they are needed during development but not deployment (you don't test in prod, and don't have types in prod as typescript gets compiled to javascript). Axios is a regular dependency as the final code will use it.
+Note that typescript and jest are in `devDependencies`. This is because they are needed during development but not deployment (you don't test in prod, and don't have types in prod as typescript gets compiled to JavaScript). Axios is a regular dependency as the final code will use it.
 
 Let's add a `.gitignore` file in the main directory that contains the following to it:
 ```gitignore
 node-modules/
 target/
 ```
+
 Create an `src` directory.
 
 We also need the `tsconfig.json` file. Create both a `tsconfig.dev.json` and a `tsconfig.json` file.
@@ -93,7 +94,7 @@ In the `tsconfig.prod.json` file, put:
 }
 ```
 
-And in the tsconfig.base.json file, put:
+And in the `tsconfig.base.json` file, put:
 ```json
 // tsconfig.base.json
 {
