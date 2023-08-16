@@ -20,12 +20,96 @@
             }
           },
           {
-            "id": "380c9967a0313989",
+            "id": "f33a9efd108c2342",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Python Core/1) Getting Started/1) Installation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "abfc6d62bef3e618",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Python Core/1) Getting Started/2) Hello World - Python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "814efe34309321d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Python Core/1) Getting Started/3) Poetry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "933f187762ebb559",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "1. Python Core/3) Common Programming Concepts/1) Variables.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6e81eb91e8fe0ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Python Core/3) Common Programming Concepts/2) Data Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1da92dad404742b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Python Core/3) Common Programming Concepts/5) Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f98ea9652fcd2d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Python Core/3) Common Programming Concepts/4) Comments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "314434f157e95902",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Python Core/3) Common Programming Concepts/5) Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,19 +245,19 @@
   },
   "active": "bfe0bb19c55394b6",
   "lastOpenFiles": [
-    "1. Python Core/3) Common Programming Concepts/5) Control Flow.md",
+    "1. Python Core/1) Getting Started/1) Installation.md",
+    "1. Python Core/3) Common Programming Concepts/5) Functions.md",
     "1. Python Core/Python Contents.md",
+    "1. Python Core/1) Getting Started/2) Hello World - Python.md",
+    "1. Python Core/1) Getting Started/3) Poetry.md",
     "1. Python Core/3) Common Programming Concepts/1) Variables.md",
-    "1. Python Core/3) Common Programming Concepts/3) Functions.md",
-    "1. Python Core/3) Common Programming Concepts/4) Comments.md",
     "1. Python Core/3) Common Programming Concepts/2) Data Types.md",
+    "1. Python Core/3) Common Programming Concepts/4) Comments.md",
+    "1. Python Core/3) Common Programming Concepts/5) Control Flow.md",
     "1. Python Core/3) Common Programming Concepts/Numeric Operations.md",
     "1. Python Core/3) Common Programming Concepts/Text.md",
     "1. Python Core/3) Common Programming Concepts/Lists.md",
-    "1. Python Core/1) Getting Started/3) Poetry.md",
     "1. Python Core/3) Common Programming Concepts",
-    "1. Python Core/1) Getting Started/2) Hello World - Python.md",
-    "1. Python Core/1) Getting Started/1) Installation.md",
     "1. Python Core/1) Getting Started",
     "1. Python Core/1) Getting Started.md",
     "2. Python Libraries/Celery",

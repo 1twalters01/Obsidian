@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8a929cf1efc5288e",
+            "id": "720515e01239845d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,19 +20,7 @@
             }
           },
           {
-            "id": "1a649d113cacb35b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/5) Control Flow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f255f55c0ef54f04",
+            "id": "a0226aab25d1116a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,8 +42,129 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d9a4d920ec8e9ff3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1) Accepting Command Line Arguments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b40ff3b7866df02c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2) Reading a File.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8376744df11233a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3) Refactoring to Improve Modularity and Error Handling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "373d14eaff55007a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4) Develop the Library's Functionality with Test Driven Development.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "428e6af8feb2b2b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5) Working with Environment Variables.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6874003e4fa0e43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6) Writing Error Messages to Standard Error Instead of Standard Output.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c27d1b8e44a64815",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/13) Iterators and Closures/1) Closures - Anonymous Functions that Capture Their Environment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bf06f4ff58a6a00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2) Processing a Series of Items with Iterators.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40e3dca7acff73fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3) Improving Our I.O Project.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52d83e5c129b2efb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4) Comparing Performance - Loops vs. Iterators.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -105,7 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 238.5
   },
   "right": {
     "id": "9bcaa6b75fe7f485",
@@ -121,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/13) Iterators and Closures/1) Closures - Anonymous Functions that Capture Their Environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md",
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/13) Iterators and Closures/1) Closures - Anonymous Functions that Capture Their Environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Rust Core/Rust Contents.md"
+                "file": "1. Rust Core/Part 1 - The Rust Programming Language/13) Iterators and Closures/1) Closures - Anonymous Functions that Capture Their Environment.md"
               }
             }
           }
@@ -182,14 +291,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de73dbbcee913cc2",
+  "active": "c27d1b8e44a64815",
   "lastOpenFiles": [
-    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/5) Control Flow.md",
     "1. Rust Core/Rust Contents.md",
+    "1) Closures - Anonymous Functions that Capture Their Environment.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/1) How to Write Tests.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes/3) Validating References with Lifetimes.md",
+    "2) Reading a File.md",
+    "3) Refactoring to Improve Modularity and Error Handling.md",
+    "4) Develop the Library's Functionality with Test Driven Development.md",
+    "5) Working with Environment Variables.md",
+    "6) Writing Error Messages to Standard Error Instead of Standard Output.md",
+    "1) Accepting Command Line Arguments.md",
+    "4) Comparing Performance - Loops vs. Iterators.md",
+    "3) Improving Our I.O Project.md",
+    "2) Processing a Series of Items with Iterators.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/13) Iterators and Closures/1) Closures - Anonymous Functions that Capture Their Environment.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/3) Common Programming Concepts/5) Control Flow.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/13) Functional Language Features - Iterators and Closures/Untitled.md",
+    "1. Rust Core/Part 1 - The Rust Programming Language/13) Iterators and Closures",
     "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/3) Test Organisation.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership/3) The Slice Type.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes/3) Validating References with Lifetimes.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/3) To panic! or Not to panic!.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/2) Storing UTF-8 Encoded Text with Strings.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/5) Using Structs to Structure Related Data/3) Method Syntax.md",
@@ -198,29 +320,16 @@
     "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/3) Storing Keys with Associated Values in Hash Maps.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes/1) Generic Data Types.md",
     "Validating References with Lifetimes.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/2) Recoverable Errors with Result.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/2) The match Control Flow Construct.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching/1) Defining an Enum.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling/1) Unrecoverable Errors with `panic!`.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests/2) Controlling How Tests are Run.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/11) Writing Automated Tests",
     "1. Rust Core/Part 1 - The Rust Programming Language/10) Generic Types, Traits, and Lifetimes",
     "1. Rust Core/Part 1 - The Rust Programming Language/9) Error Handling",
-    "4) Comparing Performance - Loops vs. Iterators.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/8) Common Collections/1) Vectors.md",
     "Pasted image 20230804204732.png",
-    "1).md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/3) Paths for Referring to an Item in the Module Tree.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/5) Separating Modules into Different Files.md",
-    "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/1) Managing growing Projects.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules",
-    "1. Rust Core/Part 1 - The Rust Programming Language/7) Managing Growing Projects with Packages, Crates, and Modules/4) Bringing Paths Into Scope with the use Keyword.md",
     "1. Rust Core/Part 1 - The Rust Programming Language/6) Enums and Pattern Matching",
     "Pasted image 20230804234341.png",
     "1. Rust Core/Part 1 - The Rust Programming Language/4) Understanding Ownership",
     "2. Rust Libraries/sqlx",
     "1. Rust Core/Part 2 - Rust and WebAssembly",
-    "1. Rust Core/Part 1 - The Rust Programming Language",
-    "2. Rust Wasm"
+    "1. Rust Core/Part 1 - The Rust Programming Language"
   ]
 }

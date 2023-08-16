@@ -180,36 +180,289 @@ myElement.addEventListener("click", functionB);
 Both functions would now run when the element is clicked.
 
 # Other Event Listener Mechanisms
-
+`addEventListener()` is recommended for adding event listeners, however there are other ways to register events. These are _event handler properties_ and _inline event handlers_.
 
 ## Event Handler Properties
+Objects (such as buttons) that can fire events also usually have properties whose name is `on` followed by the name of the event. For example, elements have a property `onclick`. This is called an _event handler property_.
 
+For example:
+```javascript
+const btn = document.querySelector("button");
+
+function random(number) {
+  return Math.floor(Math.random() * (number + 1));
+}
+
+btn.onclick = () => {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  document.body.style.backgroundColor = rndCol;
+};
+```
+
+With event handler properties, you can't add more than one handler for a single event. Any subsequent attempts to set the property will overwrite earlier ones as it is just a variable:
+```javascript
+element.onclick = function1;
+element.onclick = function2;
+```
 
 ## Inline Event Handlers - don't use these
+The pattern is as follows:
+```html
+<button onclick="bgChange()">Press me</button>
+```
 
+```javascript
+function bgChange() {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  document.body.style.backgroundColor = rndCol;
+}
+```
+
+It is not a good idea to mix up your HTML and your JavaScript, as it becomes hard to read. What if you had 100 buttons? With JavaScript you could do something like the following very easily:
+```javascript
+const buttons = document.querySelectorAll("button");
+
+for (const button of buttons) {
+  button.addEventListener("click", bgChange);
+}
+```
+
+Many common server configurations will disallow inline JavaScript, as a security measure.
 
 # Event Objects
+Sometimes, inside an event handler function, you'll see a parameter specified with a name such as `event`, `evt`, or `e`. This is called the **event object**, and it is automatically passed to event handlers to provide extra features and information. For example, `e.target` is the object that triggered the event. If using a keyboard, `e.key` is the key you pressed. Rewriting the random colour example again slightly:
 
+```javascript
+const btn = document.querySelector("button");
+
+function random(number) {
+  return Math.floor(Math.random() * (number + 1));
+}
+
+function bgChange(e) {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  e.target.style.backgroundColor = rndCol;
+  console.log(e);
+}
+
+btn.addEventListener("click", bgChange);
+```
+
+We now are changing the background colour using `e.target.style.backgroundColor`. Note the American spelling.
 
 # Preventing Default Behaviour
+As an example, say we wanted to check if the user submitted data into a form correctly:
+```html
+<form>
+  <div>
+    <label for="fname">First name: </label>
+    <input id="fname" type="text" />
+  </div>
+  <div>
+    <label for="lname">Last name: </label>
+    <input id="lname" type="text" />
+  </div>
+  <div>
+    <input id="submit" type="submit" />
+  </div>
+</form>
+<p></p>
+```
 
+We can use `e.preventDefault` to stop the default behaviour. Simply put this in a function for the event in question.
+```javascript
+const form = document.querySelector("form");
+const fname = document.getElementById("fname");
+const lname = document.getElementById("lname");
+const para = document.querySelector("p");
 
-# Event Bubbling
+form.addEventListener("submit", (e) => {
+  if (fname.value === "" || lname.value === "") {
+    e.preventDefault();
+    para.textContent = "You need to fill in both names!";
+  }
+});
+```
+
+# Event Propagation
+## Event Bubbling
 Event bubbling describes how the browser handles events targeted at nested elements.
 
-## Setting a Event Listener on a Parent Element
+Consider:
+```html
+<div id="container">
+  <button>Click me!</button>
+</div>
+<pre id="output"></pre>
+```
 
+What happens if we add a click event handler to the parent of the button (the div), then click the button?
+```javascript
+const output = document.querySelector("#output");
+function handleClick(e) {
+  output.textContent += `You clicked on a ${e.currentTarget.tagName} element\n`;
+}
 
-## Bubbling Example
+const container = document.querySelector("#container");
+container.addEventListener("click", handleClick);
+```
 
+You'll see that the parent fires a click event when the user clicks the button.
 
-## Video Player Example
+What happens if we add event listeners to the button _and_ the parent?
+```javascript
+const output = document.querySelector("#output");
+function handleClick(e) {
+  output.textContent += `You clicked on a ${e.currentTarget.tagName} element\n`;
+}
 
+const container = document.querySelector("#container");
+const button = document.querySelector("button");
 
-## Fixing the Problem With `stopPropagation()`
+document.body.addEventListener("click", handleClick);
+container.addEventListener("click", handleClick);
+button.addEventListener("click", handleClick);
+```
 
+You'll see that all three elements fire a click event when the user clicks the button:
+- the click on the button fires first
+- followed by the click on its parent (the `<div>` element)
+- followed by the `<div>` element's parent (the `<body>` element).
 
+We describe this by saying that the event **bubbles up** from the innermost element that was clicked.
+This behaviour can be useful and can also cause unexpected problems.
+
+### Video Player Example
+Consider:
+```html
+<button>Display video</button>
+
+<div class="hidden">
+  <video>
+    <source
+      src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+      type="video/webm" />
+    <p>
+      Your browser doesn't support HTML video. Here is a
+      <a href="rabbit320.mp4">link to the video</a> instead.
+    </p>
+  </video>
+</div>
+```
+
+```javascript
+const btn = document.querySelector("button");
+const box = document.querySelector("div");
+const video = document.querySelector("video");
+
+btn.addEventListener("click", () => box.classList.remove("hidden"));
+video.addEventListener("click", () => video.play());
+box.addEventListener("click", () => box.classList.add("hidden"));
+```
+
+When you click the button, the box and the video it contains are shown. But then when you click the video, the video starts to play, but the box is hidden again due to event bubbling.
+
+We do not want the box to be hidden again when playing the video.
+
+#### Fixing the Problem With `stopPropagation()`
+The [`Event`](https://developer.mozilla.org/en-US/docs/Web/API/Event) object has a function available on it called [`stopPropagation()`](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation) which, when called inside an event handler, prevents the event from bubbling up to any other elements.
+
+```javascript
+const btn = document.querySelector("button");
+const box = document.querySelector("div");
+const video = document.querySelector("video");
+
+btn.addEventListener("click", () => box.classList.remove("hidden"));
+
+video.addEventListener("click", (event) => {
+  event.stopPropagation();
+  video.play();
+});
+
+box.addEventListener("click", () => box.classList.add("hidden"));
+```
+We are calling `stopPropagation()` on the event object in the handler for the `<video>` element's `'click'` event. This will stop that event from bubbling up to the box.
 ## Event Capture
+An alternative form of event propagation is _event capture_. This is like event bubbling but the order is reversed: so instead of the event firing first on the innermost element targeted, and then on successively less nested elements, the event fires first on the _least nested_ element, and then on successively more nested elements, until the target is reached.
 
+Event capture is disabled by default. To enable it you have to pass the `capture` option in `addEventListener()`.
 
-# Event Delegation
+For example:
+```html
+<body>
+  <div id="container">
+    <button>Click me!</button>
+  </div>
+  <pre id="output"></pre>
+</body>
+```
+
+```javascript
+const output = document.querySelector("#output");
+function handleClick(e) {
+  output.textContent += `You clicked on a ${e.currentTarget.tagName} element\n`;
+}
+
+const container = document.querySelector("#container");
+const button = document.querySelector("button");
+
+document.body.addEventListener("click", handleClick, { capture: true });
+container.addEventListener("click", handleClick, { capture: true });
+button.addEventListener("click", handleClick);
+```
+
+In this case, the order of messages is reversed: the `<body>` event handler fires first, followed by the `<div>` event handler, followed by the `<button>` event handler:
+
+## Event Delegation
+Event bubbling isn't just annoying, though: it can be very useful. In particular, it enables **event delegation**.
+
+Here, when we want some code to run when the user interacts with any one of a large number of child elements, we set the event listener on their parent and have events that happen on them bubble up to their parent rather than having to set the event listener on every child individually.
+
+Suppose that a page is divided into 16 tiles, and we want to set each tile to a random colour when the user clicks that tile:
+```html
+<div id="container">
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+  <div class="tile"></div>
+</div>
+```
+
+```css
+.tile {
+  height: 100px;
+  width: 25%;
+  float: left;
+}
+```
+
+```javascript
+function random(number) {
+  return Math.floor(Math.random() * number);
+}
+
+function bgChange() {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  return rndCol;
+}
+
+const container = document.querySelector("#container");
+
+container.addEventListener("click", (event) => {
+  event.target.style.backgroundColor = bgChange();
+});
+```
+
+We could have added a click event handler for every tile, but it is much simpler and more efficient option is to set the click event handler on the parent, and rely on event bubbling to ensure that the handler is executed when the user clicks on a tile.

@@ -52,7 +52,7 @@
 		5) [[5) Working with Environment Variables]]
 		6) [[6) Writing Error Messages to Standard Error Instead of Standard Output]]
 	13) Functional Language Features: Iterators and Closures
-		1) [[1) Closures: Anonymous Functions that Capture Their Environment]]
+		1) [[1) Closures - Anonymous Functions that Capture Their Environment]]
 		2) [[2) Processing a Series of Items with Iterators]]
 		3) [[3) Improving Our I.O Project]]
 		4) [[4) Comparing Performance - Loops vs. Iterators]]

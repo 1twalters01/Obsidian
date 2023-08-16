@@ -20,30 +20,6 @@
             }
           },
           {
-            "id": "a8c692564ec26458",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7) Events.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3cfc138e321889bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. TypeScript Core/5) Objects/1) Object Basics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2f9bd21ebb98d8b5",
             "type": "leaf",
             "state": {
@@ -92,12 +68,36 @@
             }
           },
           {
-            "id": "ad496b75da54501a",
+            "id": "5019b8b73eb62a0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6) JSON.md",
+                "file": "1) Asynchronous Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9746d5b074d1c795",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2) Promises.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3eadbb3c1f15a8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3) Workers.md",
                 "mode": "source",
                 "source": false
               }
@@ -233,14 +233,17 @@
   },
   "active": "03a9cbcc3cbf6612",
   "lastOpenFiles": [
-    "7) Events.md",
+    "3) Workers.md",
     "1. TypeScript Core/TypeScript Contents.md",
-    "1. TypeScript Core/5) Objects/1) Object Basics.md",
-    "1. TypeScript Core/3) Common Programming Concepts/2) Object Prototypes.md",
+    "2) Promises.md",
+    "1) Asynchronous Introduction.md",
+    "7) Events.md",
     "3) Object Oriented Programming.md",
+    "1. TypeScript Core/3) Common Programming Concepts/2) Object Prototypes.md",
     "4) Classes JS.md",
-    "6) JSON.md",
     "5) Classes TS.md",
+    "6) JSON.md",
+    "1. TypeScript Core/5) Objects/1) Object Basics.md",
     "2) Data Types.md",
     "1. TypeScript Core/3) Common Programming Concepts/5) Control Flow.md",
     "1. TypeScript Core/3) Common Programming Concepts/3) Functions.md",

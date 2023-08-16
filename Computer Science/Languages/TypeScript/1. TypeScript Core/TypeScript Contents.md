@@ -11,14 +11,14 @@
 		3) [[3) Functions]]
 		4) [[4) Comments]]
 		5) [[5) Control Flow]]
-		6) [[7) Events]] - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_objects
+		6) [[7) Events]]
 	4) Objects
-		1) [[1) Object Basics]] - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
+		1) [[1) Object Basics]]
 		2) [[2) Object Prototypes]] - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
 		3) [[3) Object Oriented Programming]] - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming
 		4) [[4) Classes JS]] - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript
 		5) [[5) Classes TS]] - https://www.typescriptlang.org/docs/handbook/2/classes.html
-		6) [[6) JSON]] - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+		6) [[6) JSON]]
 	5) Asynchronous JavaScript
 		1) [[1) Asynchronous Introduction]] - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous, https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing
 		2) [[2) Promises]] - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises, https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Implementing_a_promise-based_API
