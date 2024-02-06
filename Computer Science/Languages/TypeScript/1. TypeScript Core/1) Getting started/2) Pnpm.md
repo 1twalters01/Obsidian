@@ -1,6 +1,7 @@
 # About Pnpm
 * pnpm is an alternative package manager for Node.js which stands for "performant NPM". 
 * It holds packages at a global level and lets projects use them too, reducing the memory needed as duplicates aren't created.
+* Run `npm install -g pnpm` to install it.
 * The rest of this guide assumes the use of pnpm.
 * To work on existing projects all you have to do is run:
 	* `git clone example.org/someproject`
